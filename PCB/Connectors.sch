@@ -36,11 +36,12 @@ LIBS:xilinx7
 LIBS:xilinxultra
 LIBS:HydroPWNics_Lib
 LIBS:OnHand-Components-Sym
+LIBS:ZyncMV-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 7 8
 Title ""
 Date ""
 Rev ""

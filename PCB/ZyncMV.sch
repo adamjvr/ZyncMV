@@ -36,11 +36,12 @@ LIBS:xilinx7
 LIBS:xilinxultra
 LIBS:HydroPWNics_Lib
 LIBS:OnHand-Components-Sym
+LIBS:ZyncMV-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -51,7 +52,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5000 3450 2200 1900
+S 4350 1575 3275 4075
 U 585AE0B8
 F0 "Zync 7000 FPGA/SoC" 60
 F1 "Zync_SoC.sch" 60
@@ -77,7 +78,7 @@ $EndSheet
 $Sheet
 S 900  3450 2200 1900
 U 585AE128
-F0 "LDDR2 Memory Module" 60
+F0 "DDR3L Memory Module" 60
 F1 "Memory.sch" 60
 $EndSheet
 $Sheet
