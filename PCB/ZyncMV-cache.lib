@@ -16,6 +16,36 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# +1V35
+#
+DEF +1V35 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+1V35" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V35 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +1V8
+#
+DEF +1V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+1V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # +3V3
 #
 DEF +3V3 #PWR 0 0 Y Y 1 F P
@@ -130,6 +160,70 @@ X ~ 2 300 -50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# C0603C220D5GACTU
+#
+DEF C0603C220D5GACTU C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "C0603C220D5GACTU" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0603" -750 50 60 H I C CNN
+F3 "http://www.kemet.com/docfinder?Partnumber=C0603C220D5GACTU" -650 150 60 H I C CNN
+F4 "0.11100 @ 4000" -550 250 60 H I C CNN "Cost"
+F5 "8 Jan 2016" -450 350 60 H I C CNN "Date Created"
+F6 "8 Jan 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.87mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Kemet" 50 850 60 H I C CNN "MFR"
+F11 "C0603C220D5GACTU" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.5pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "CAP CER 22PF 50V NP0 0603" 650 1450 60 H I C CNN "Type"
+F17 "16V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "22pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "22pF ±0.5pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 B
+X ~ 2 225 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# CL05A475KQ5NRNC
+#
+DEF CL05A475KQ5NRNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL05A475KQ5NRNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05A475KQ5NRNC.pdf" -650 150 60 H I C CNN
+F4 "0.09500 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05A475KQ5NRNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "10%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "4.7uF" -600 -250 60 H V C CNN "Componen-Value"
+F20 "4.7µF 6.3V Ceramic Capacitor X5R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # CL05B104JP5NNNC
 #
 DEF CL05B104JP5NNNC C 0 40 Y Y 1 F N
@@ -194,21 +288,21 @@ X ~ 2 250 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# CL10A106KQ8NNNC
+# CL10A225KQ8NNNC
 #
-DEF CL10A106KQ8NNNC C 0 40 Y Y 1 F N
+DEF CL10A225KQ8NNNC C 0 40 Y Y 1 F N
 F0 "C" -200 50 60 H V C CNN
-F1 "CL10A106KQ8NNNC" -300 -150 60 H V C CNN
+F1 "CL10A225KQ8NNNC" -300 -150 60 H V C CNN
 F2 "PCB_Footprints:C0603" -750 50 60 H I C CNN
-F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A106KQ8NNNC.pdf" -650 150 60 H I C CNN
-F4 "0.05145 @ 4000" -550 250 60 H I C CNN "Cost"
-F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
-F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A225KQ8NNNC.pdf" -650 150 60 H I C CNN
+F4 "0.01665 @ 4000" -550 250 60 H I C CNN "Cost"
+F5 "8 Jan 2017" -450 350 60 H I C CNN "Date Created"
+F6 "8 Jan 2017" -350 450 60 H I C CNN "Date Modifed"
 F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
-F8 "0.90mm" -150 650 60 H I C CNN "Height"
+F8 "0.87mm" -150 650 60 H I C CNN "Height"
 F9 "Yes" -50 750 60 H I C CNN "RHoS?"
 F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
-F11 "CL10A106KQ8NNNC" 150 950 60 H I C CNN "MFR#"
+F11 "CL10A225KQ8NNNC" 150 950 60 H I C CNN "MFR#"
 F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
 F13 "2" 350 1150 60 H I C CNN "Pin Count#"
 F14 "Active" 450 1250 60 H I C CNN "Status"
@@ -216,45 +310,109 @@ F15 "10%" 550 1350 60 H I C CNN "Tolerance"
 F16 "Ceramic Capacitor 0603" 650 1450 60 H I C CNN "Type"
 F17 "6.3V" 750 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
-F19 "10uF" -625 -225 60 H V C CNN "Componen-Value"
-F20 "10µF 6.3V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063\" L x 0.031\" W (1.60mm x 0.80mm)" 1500 1750 60 H I C CNN "Description"
+F19 "2.2uF" -625 -225 60 H V C CNN "Componen-Value"
+F20 "2.2µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" 1500 1750 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 0 100 0 -100 N
 P 2 0 1 0 50 100 50 -100 N
-X ~ 1 -200 0 200 R 50 50 1 1 I
-X ~ 2 250 0 200 L 50 50 1 1 I
+X ~ 1 -200 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CL31B106KLHNNNE
+# CL10C332JA8NNNC
 #
-DEF CL31B106KLHNNNE C 0 40 Y Y 1 F N
-F0 "C" -200 150 60 H V C CNN
-F1 "CL31B106KLHNNNE" 50 -150 60 H V C CNN
-F2 "PCB_Footprints:C1206" 250 50 60 H I C CNN
-F3 "https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL31B106KLHNNNE.pdf" 250 50 60 H I C CNN
-F4 "0.21012 @ 1000" -100 250 60 H I C CNN "Cost"
-F5 "30 Dec 2016" 0 350 60 H I C CNN "Date Created"
-F6 "30 Dec 2016" 100 450 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 200 550 60 H I C CNN "Designer"
-F8 "0.55mm" 300 650 60 H I C CNN "Height"
-F9 "Yes" 400 750 60 H I C CNN "RHoS?"
-F10 "Samsung Electro-Mechanics America, Inc." 500 850 60 H I C CNN "MFR"
-F11 "CL31B106KLHNNNE" 600 950 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 700 1050 60 H I C CNN "Mounting"
-F13 "2" 800 1150 60 H I C CNN "Pint Count#"
-F14 "Active" 900 1250 60 H I C CNN "Status"
-F15 "5%" 1000 1350 60 H I C CNN "Tolerance"
-F16 "Ceramic Capacitor 01206" 1100 1450 60 H I C CNN "Type"
-F17 "35V" 1200 1550 60 H I C CNN "Voltage"
-F18 "N/A" 1300 1650 60 H I C CNN "Wattage"
-F19 "10uF" -225 -250 60 H V C CNN "Component-Value"
-F20 "10µF ±10% 35V Ceramic Capacitor X7R 1206 (3216 Metric)" 1500 1850 60 H I C CNN "Description"
+DEF CL10C332JA8NNNC C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "CL10C332JA8NNNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0603" -750 50 60 H I C CNN
+F3 "https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10C332JA8NNNC.pdf" -650 150 60 H I C CNN
+F4 "0.03333 @ 1000" -550 250 60 H I C CNN "Cost"
+F5 "8 Jan 2016" -450 350 60 H I C CNN "Date Created"
+F6 "8 Jan 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.90mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL10C332JA8NNNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "5%" 550 1350 60 H I C CNN "Tolerance"
+F16 "CAP CER 3300PF 25V NP0 0603" 650 1450 60 H I C CNN "Type"
+F17 "6.3V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "3300pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "3300pF ±5% 25V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" 1500 1750 60 H I C CNN "Description"
 DRAW
-P 2 0 1 0 -50 100 -50 -100 N
-P 2 0 1 0 0 100 0 -100 N
-X ~ 1 -250 0 200 R 50 50 1 1 I
-X ~ 2 200 0 200 L 50 50 1 1 I
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 B
+X ~ 2 225 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# CL21A226KQQNNNE
+#
+DEF CL21A226KQQNNNE C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "CL21A226KQQNNNE" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0805" -750 50 60 H I C CNN
+F3 "https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21A226KQQNNNE.pdf" -650 150 60 H I C CNN
+F4 "0.09981 @ 4000" -550 250 60 H I C CNN "Cost"
+F5 "8 Jan 2016" -450 350 60 H I C CNN "Date Created"
+F6 "8 Jan 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "1.40mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL21A226KQQNNNE" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.5pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "CAP CER 22PF 50V NP0 0603" 650 1450 60 H I C CNN "Type"
+F17 "6.3V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "22uF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 B
+X ~ 2 225 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# CL32B106KBJNNWE
+#
+DEF CL32B106KBJNNWE C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "CL32B106KBJNNWE" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C1210" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL32B106KBJNNWE.pdf" -650 150 60 H I C CNN
+F4 "0.15600 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "8 Jan 2017" -450 350 60 H I C CNN "Date Created"
+F6 "8 Jan 2017" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "2.70mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL10C332JA8NNNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "10%" 550 1350 60 H I C CNN "Tolerance"
+F16 "CAP CER 10UF 50V X7R 1210" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "10uF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 P
+X ~ 2 225 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -385,6 +543,82 @@ F3 "" 0 0 50 H V C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LPS3015-222MR_
+#
+DEF LPS3015-222MR_ L 0 40 Y Y 1 F N
+F0 "L" -150 -175 60 H V C CNN
+F1 "LPS3015-222MR_" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:LPS3015-222MR_" -450 50 60 H I C CNN
+F3 "http://www.coilcraft.com/pdfs/lps3015.pdf" 50 175 60 H I C CNN
+F4 "0.26 @ 5000" -250 250 60 H I C CNN "Cost"
+F5 "8 Jan 2017" -150 350 60 H I C CNN "Date Created "
+F6 "8 Jan 2017" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "1.4mm" 150 650 60 H I C CNN "Height"
+F9 "Yes" 250 750 60 H I C CNN "RHoS?"
+F10 "Coilcraft Inc" 350 850 60 H I C CNN "MFR"
+F11 "LPS3015-222MR_" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "20%" 850 1350 60 H I C CNN "Tolerance"
+F16 "Wirewound Power Inductor" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "2.2uH" -100 -275 60 H V C CNN "Component-Value"
+F20 "2.2uH Low Profile Shielded Power Inductor" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LQM2HPN1R0MJ0L
+#
+DEF LQM2HPN1R0MJ0L L 0 40 Y Y 1 F N
+F0 "L" -150 -175 60 H V C CNN
+F1 "LQM2HPN1R0MJ0L" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:LQM2HPN1R0MJ0L" -450 50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0104LQM2HP_J0.pdf" 50 175 60 H I C CNN
+F4 "0.12784 @ 6000" -250 250 60 H I C CNN "Cost"
+F5 "8 Jan 2017" -150 350 60 H I C CNN "Date Created "
+F6 "8 Jan 2017" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "1mm" 150 650 60 H I C CNN "Height"
+F9 "Yes" 250 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 350 850 60 H I C CNN "MFR"
+F11 "LQM2HPN1R0MJ0L" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "20%" 850 1350 60 H I C CNN "Tolerance"
+F16 "FIXED IND 1UH 1.5A 90 MOHM SMD Multilayer Inductor" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "1UH" -100 -275 60 H V C CNN "Component-Value"
+F20 "1µH Shielded Multilayer Inductor 1.5A 113 mOhm Max 1008 (2520 Metric)" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+X ~ 1 -400 0 200 R 50 50 1 1 B
+X ~ 2 400 0 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -744,30 +978,30 @@ X GND_PAD 7 -500 -250 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# XFL3012-222MEC
+# XFL4020-222ME_
 #
-DEF XFL3012-222MEC L 0 40 Y Y 1 F N
+DEF XFL4020-222ME_ L 0 40 Y Y 1 F N
 F0 "L" -150 -175 60 H V C CNN
-F1 "XFL3012-222MEC" 0 -100 60 H V C CNN
-F2 "PCB_Footprints:XFL3012-222MEC" -450 50 60 H I C CNN
-F3 "http://www.coilcraft.com/pdfs/xfl3012.pdf" 50 175 60 H I C CNN
-F4 "0.43 @ 1000" -250 250 60 H I C CNN "Cost"
-F5 "30 Dec 2016" -150 350 60 H I C CNN "Date Created "
-F6 "30 Dec 2016" -50 450 60 H I C CNN "Date Modified"
+F1 "XFL4020-222ME_" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:XFL4020-222ME_" -450 50 60 H I C CNN
+F3 "http://www.coilcraft.com/pdfs/xfl4020.pdf" 50 175 60 H I C CNN
+F4 "0.26 @ 5000" -250 250 60 H I C CNN "Cost"
+F5 "8 Jan 2017" -150 350 60 H I C CNN "Date Created "
+F6 "8 Jan 2017" -50 450 60 H I C CNN "Date Modified"
 F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
-F8 "1.3mm" 150 650 60 H I C CNN "Height"
+F8 "2.1mm" 150 650 60 H I C CNN "Height"
 F9 "Yes" 250 750 60 H I C CNN "RHoS?"
 F10 "Coilcraft Inc" 350 850 60 H I C CNN "MFR"
-F11 "0402CS-R10XJL" 450 950 60 H I C CNN "MFR#"
+F11 "XFL4020-222ME_" 450 950 60 H I C CNN "MFR#"
 F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
 F13 "2" 650 1150 60 H I C CNN "Pin Count#"
 F14 "Active" 750 1250 60 H I C CNN "Status"
 F15 "20%" 850 1350 60 H I C CNN "Tolerance"
-F16 "Shielded Power Wirewound Inductor" 950 1450 60 H I C CNN "Type"
+F16 "Wirewound Power Inductor" 950 1450 60 H I C CNN "Type"
 F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
-F19 "2.2mH" -100 -275 60 H V C CNN "Component-Value"
-F20 "2.2mH Shielded Power Inductor 73.2MHZ 4.1A 3mm X 3mm" 1250 1750 60 H I C CNN "Description"
+F19 "2.2uH" -100 -275 60 H V C CNN "Component-Value"
+F20 "2.2uH Low Profile Shielded Power Inductor" 1350 1850 60 H I C CNN "Description"
 DRAW
 A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
 A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
