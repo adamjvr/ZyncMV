@@ -631,10 +631,6 @@ Connection ~ 4275 6575
 Connection ~ 4275 7025
 Wire Wire Line
 	3725 7025 4850 7025
-Wire Wire Line
-	4225 3025 1100 3025
-Wire Wire Line
-	4225 2925 1100 2925
 $Comp
 L RC1005F472CS R?
 U 1 1 588511D6
@@ -1267,4 +1263,68 @@ Wire Wire Line
 	5825 3175 5425 3175
 Wire Wire Line
 	5425 3075 5825 3075
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5886B0A4
+P 3100 2925
+F 0 "R?" H 2600 2875 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 3675 2875 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 2700 3175 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 2800 3375 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 4650 4875 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 3000 3475 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 3100 3575 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3200 3675 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 3300 3775 60  0001 C CNN "Height"
+F 9 "Yes" H 3400 3875 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 3500 3975 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 3600 4075 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3700 4175 60  0001 C CNN "Mounting"
+F 13 "2" H 3800 4275 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3900 4375 60  0001 C CNN "Status"
+F 15 "0.1%" H 4000 4475 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 4100 4575 60  0001 C CNN "Type"
+F 17 "N/A" H 4200 4675 60  0001 C CNN "Voltage"
+F 18 "1/16" H 4300 4775 60  0001 C CNN "Wattage"
+F 19 "51" H 2825 2875 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 4500 4975 60  0001 C CNN "Description"
+	1    3100 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5886B355
+P 3100 3025
+F 0 "R?" H 2600 2975 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 3675 2975 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 2700 3275 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 2800 3475 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 4650 4975 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 3000 3575 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 3100 3675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3200 3775 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 3300 3875 60  0001 C CNN "Height"
+F 9 "Yes" H 3400 3975 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 3500 4075 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 3600 4175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3700 4275 60  0001 C CNN "Mounting"
+F 13 "2" H 3800 4375 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3900 4475 60  0001 C CNN "Status"
+F 15 "0.1%" H 4000 4575 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 4100 4675 60  0001 C CNN "Type"
+F 17 "N/A" H 4200 4775 60  0001 C CNN "Voltage"
+F 18 "1/16" H 4300 4875 60  0001 C CNN "Wattage"
+F 19 "51" H 2825 2975 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 4500 5075 60  0001 C CNN "Description"
+	1    3100 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 2925 3400 2925
+Wire Wire Line
+	4225 3025 3400 3025
+Wire Wire Line
+	2800 3025 1100 3025
+Wire Wire Line
+	1125 2925 2800 2925
 $EndSCHEMATC
