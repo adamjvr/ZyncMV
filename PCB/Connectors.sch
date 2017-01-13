@@ -32,7 +32,6 @@ LIBS:Lattice_iCE_FPGA
 LIBS:xess
 LIBS:xilinx6s
 LIBS:xilinx6v
-LIBS:xilinx7
 LIBS:xilinxultra
 LIBS:HydroPWNics_Lib
 LIBS:OnHand-Components-Sym

@@ -32,7 +32,6 @@ LIBS:Lattice_iCE_FPGA
 LIBS:xess
 LIBS:xilinx6s
 LIBS:xilinx6v
-LIBS:xilinx7
 LIBS:xilinxultra
 LIBS:HydroPWNics_Lib
 LIBS:OnHand-Components-Sym
@@ -74,6 +73,10 @@ S 900  2775 2125 1325
 U 585AE128
 F0 "DDR3L Memory Module" 60
 F1 "Memory.sch" 60
+F2 "MEM_DATA_BUS" B R 3025 3100 60 
+F3 "MEM_ADDR_BUS" B R 3025 3325 60 
+F4 "CTRL_SIG_BUS" B R 3025 3475 60 
+F5 "DDR3L_VREF" B R 3025 3650 60 
 $EndSheet
 $Sheet
 S 900  1275 2125 1300

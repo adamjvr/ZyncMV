@@ -32,7 +32,6 @@ LIBS:Lattice_iCE_FPGA
 LIBS:xess
 LIBS:xilinx6s
 LIBS:xilinx6v
-LIBS:xilinx7
 LIBS:xilinxultra
 LIBS:HydroPWNics_Lib
 LIBS:OnHand-Components-Sym
@@ -41,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""

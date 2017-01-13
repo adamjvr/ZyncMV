@@ -1,4 +1,4 @@
-update=12/21/2016 1:00:56 PM
+update=1/12/2017 11:00:22 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,7 +62,6 @@ LibName30=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/Lattic
 LibName31=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/xess
 LibName32=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/xilinx6s
 LibName33=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/xilinx6v
-LibName34=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/xilinx7
-LibName35=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/xilinxultra
-LibName36=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
-LibName37=C:/Users/adam/Documents/GitHub/KiCAD-OnHand-Lib/OnHand-Components-Sym
+LibName34=C:/Users/adam/Documents/GitHub/KiCad-Schematic-Symbol-Libraries/xilinxultra
+LibName35=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
+LibName36=C:/Users/adam/Documents/GitHub/KiCAD-OnHand-Lib/OnHand-Components-Sym
