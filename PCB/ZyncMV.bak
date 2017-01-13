@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date "2016-12-23"
 Rev "0.1a"
@@ -52,13 +52,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4350 1575 3275 4075
+S 4700 1500 2750 4300
 U 585AE0B8
 F0 "Zync 7000 FPGA/SoC" 60
 F1 "Zync_SoC.sch" 60
 $EndSheet
 $Sheet
-S 925  6200 2725 1300
+S 4100 6200 2725 1300
 U 585AE0DE
 F0 "Power" 60
 F1 "Power.sch" 60
@@ -70,19 +70,13 @@ F0 "OV7725 Camera Module" 60
 F1 "OV7725_cam.sch" 60
 $EndSheet
 $Sheet
-S 4100 6200 2550 1300
-U 585AE108
-F0 "ESP8285 WiFi SoC" 60
-F1 "ESP8285_WiFi.sch" 60
-$EndSheet
-$Sheet
-S 900  3450 2200 1900
+S 900  3000 2125 1325
 U 585AE128
 F0 "DDR3L Memory Module" 60
 F1 "Memory.sch" 60
 $EndSheet
 $Sheet
-S 900  1500 2200 1300
+S 900  1500 2125 1300
 U 585AE13E
 F0 "Connectors" 60
 F1 "Connectors.sch" 60
@@ -93,6 +87,18 @@ U 585AE27C
 F0 "USB PHY Interface" 60
 F1 "USB_PHY.sch" 60
 $EndSheet
-Text Notes 2850 1000 0    197  ~ 39
-ZyncMV: Zync Machine Vision Platform
+Text Notes 3625 1050 0    197  ~ 39
+ZyncMV: Realtime Machine Vision
+$Sheet
+S 900  4525 2575 1275
+U 5878744A
+F0 "Zync SoC PMIC" 60
+F1 "SoC_PMIC.sch" 60
+$EndSheet
+$Sheet
+S 925  6175 2400 1275
+U 5878DB5C
+F0 "Zync SoC PMIC 2" 60
+F1 "SoC_PMIC_2.sch" 60
+$EndSheet
 $EndSCHEMATC
