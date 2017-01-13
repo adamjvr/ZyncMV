@@ -57,7 +57,7 @@ F0 "Zync 7000 FPGA/SoC" 60
 F1 "Zync_SoC.sch" 60
 $EndSheet
 $Sheet
-S 4100 5975 2725 1300
+S 4125 6925 975  375 
 U 585AE0DE
 F0 "Power" 60
 F1 "Power.sch" 60
