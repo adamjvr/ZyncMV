@@ -140,7 +140,37 @@ Wire Wire Line
 Wire Wire Line
 	4525 4825 3825 4825
 Wire Wire Line
-	5975 4825 5975 6575
+	5975 4825 5975 4925
+Wire Wire Line
+	5975 4925 5975 5025
+Wire Wire Line
+	5975 5025 5975 5125
+Wire Wire Line
+	5975 5125 5975 5225
+Wire Wire Line
+	5975 5225 5975 5475
+Wire Wire Line
+	5975 5475 5975 5575
+Wire Wire Line
+	5975 5575 5975 5675
+Wire Wire Line
+	5975 5675 5975 5775
+Wire Wire Line
+	5975 5775 5975 5875
+Wire Wire Line
+	5975 5875 5975 5975
+Wire Wire Line
+	5975 5975 5975 6075
+Wire Wire Line
+	5975 6075 5975 6175
+Wire Wire Line
+	5975 6175 5975 6275
+Wire Wire Line
+	5975 6275 5975 6375
+Wire Wire Line
+	5975 6375 5975 6475
+Wire Wire Line
+	5975 6475 5975 6575
 Connection ~ 5975 4925
 Connection ~ 5975 5025
 Connection ~ 5975 5125
@@ -168,7 +198,21 @@ F 3 "" H 5975 6575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	8225 1625 8225 2375
+	8225 1625 8225 1725
+Wire Bus Line
+	8225 1725 8225 1825
+Wire Bus Line
+	8225 1825 8225 1925
+Wire Bus Line
+	8225 1925 8225 2025
+Wire Bus Line
+	8225 2025 8225 2125
+Wire Bus Line
+	8225 2125 8225 2225
+Wire Bus Line
+	8225 2225 8225 2325
+Wire Bus Line
+	8225 2325 8225 2375
 Entry Bus Bus
 	8125 1525 8225 1625
 Entry Bus Bus
@@ -922,17 +966,63 @@ Entry Bus Bus
 Wire Bus Line
 	8225 2375 10225 2375
 Wire Bus Line
-	2750 1625 2750 3025
+	2750 1625 2750 1725
 Wire Bus Line
-	2750 3025 1225 3025
-Text HLabel 1225 3025 0    60   BiDi ~ 0
-MEM_DATA_BUS
+	2750 1725 2750 1825
+Wire Bus Line
+	2750 1825 2750 1925
+Wire Bus Line
+	2750 1925 2750 2025
+Wire Bus Line
+	2750 2025 2750 2125
+Wire Bus Line
+	2750 2125 2750 2225
+Wire Bus Line
+	2750 2225 2750 2325
+Wire Bus Line
+	2750 2325 2750 2425
+Wire Bus Line
+	2750 2425 2750 2525
+Wire Bus Line
+	2750 2525 2750 2625
+Wire Bus Line
+	2750 2625 2750 2725
+Wire Bus Line
+	2750 2725 2750 2825
+Wire Bus Line
+	2750 2825 2750 2925
+Wire Bus Line
+	2750 2925 2750 3125
+Wire Bus Line
+	2750 3125 2750 3225
+Wire Bus Line
+	2750 3225 2750 3325
+Wire Bus Line
+	2750 3325 2750 3450
+Wire Bus Line
+	2750 3450 1275 3450
+Text HLabel 1275 3450 0    60   BiDi ~ 0
+MEM_ADDR_BUS
 Text Notes 2975 1425 0    60   ~ 0
 Place impedance matching\n resistors close to Zync SoC
 Text Notes 6300 1450 0    60   ~ 0
 Place impedance matching\n resistors close to Zync SoC
 Wire Wire Line
-	4525 5775 4525 6575
+	4525 5775 4525 5875
+Wire Wire Line
+	4525 5875 4525 5975
+Wire Wire Line
+	4525 5975 4525 6075
+Wire Wire Line
+	4525 6075 4525 6175
+Wire Wire Line
+	4525 6175 4525 6275
+Wire Wire Line
+	4525 6275 4525 6375
+Wire Wire Line
+	4525 6375 4525 6475
+Wire Wire Line
+	4525 6475 4525 6575
 Connection ~ 4525 5875
 Connection ~ 4525 5975
 Connection ~ 4525 6075
@@ -1032,4 +1122,16 @@ Wire Wire Line
 	3825 3225 4525 3225
 Text Notes 3025 950  0    197  ~ 39
 MT41K128M8DA-107:J 1GB DDR3L Memory
+Wire Wire Line
+	2850 3125 3225 3125
+Wire Wire Line
+	2850 3225 3225 3225
+Entry Bus Bus
+	2750 3125 2850 3025
+Entry Bus Bus
+	2750 3225 2850 3125
+Entry Bus Bus
+	2750 3325 2850 3225
+Wire Wire Line
+	2850 3025 3225 3025
 $EndSCHEMATC
