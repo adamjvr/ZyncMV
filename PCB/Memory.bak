@@ -36,7 +36,7 @@ LIBS:xilinxultra
 LIBS:HydroPWNics_Lib
 LIBS:OnHand-Components-Sym
 LIBS:ZyncMV-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -50,62 +50,6 @@ Comment2 "Engineer : Adam Vadala-Roth"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MT41K128M8DA-107:J U?
-U 1 1 587AE94B
-P 5725 2775
-F 0 "U?" H 5150 3725 60  0000 C CNN
-F 1 "MT41K128M8DA-107:J" H 5575 675 60  0000 C CNN
-F 2 "PCB_Footprints:MT41K128M8DA_107_J" H 7150 4700 60  0001 C CNN
-F 3 "http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 7350 4825 60  0001 C CNN
-F 4 "3.20400 @ 250" H 5775 3750 60  0001 C CNN "Cost"
-F 5 "7 Jan 2017" H 5800 3850 60  0001 C CNN "Date Created"
-F 6 "7 Jan 2017" H 5900 3950 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 6000 4050 60  0001 C CNN "Designer"
-F 8 "0.8mm" H 6100 4150 60  0001 C CNN "Height"
-F 9 "Yes" H 6200 4250 60  0001 C CNN "RhoS?"
-F 10 "Micron" H 6300 4350 60  0001 C CNN "MFR"
-F 11 "MT41K128M8DA-107:J" H 6400 4450 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 6500 4550 60  0001 C CNN "Mounting"
-F 13 "78" H 6600 4650 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 6700 4750 60  0001 C CNN "Status"
-F 15 "N/A" H 6800 4850 60  0001 C CNN "Tolerance"
-F 16 "DDR3L SDRAM Module" H 6900 4950 60  0001 C CNN "Type"
-F 17 "N/A" H 7000 5050 60  0001 C CNN "Voltage"
-F 18 "N/A" H 6975 4375 60  0001 C CNN "Wattage"
-F 19 "N/A" H 7075 4475 60  0001 C CNN "Component-Value"
-F 20 "IC SDRAM 1GBIT 933MHZ 78FBGA" H 7175 4575 60  0001 C CNN "Description"
-	1    5725 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L MT41K128M8DA-107:J U?
-U 2 1 587AEA02
-P 5575 6200
-F 0 "U?" H 5175 7000 60  0000 C CNN
-F 1 "MT41K128M8DA-107:J" H 5575 5050 60  0000 C CNN
-F 2 "PCB_Footprints:MT41K128M8DA_107_J" H 7000 8125 60  0001 C CNN
-F 3 "http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 7200 8250 60  0001 C CNN
-F 4 "3.20400 @ 250" H 5625 7175 60  0001 C CNN "Cost"
-F 5 "7 Jan 2017" H 5650 7275 60  0001 C CNN "Date Created"
-F 6 "7 Jan 2017" H 5750 7375 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 5850 7475 60  0001 C CNN "Designer"
-F 8 "0.8mm" H 5950 7575 60  0001 C CNN "Height"
-F 9 "Yes" H 6050 7675 60  0001 C CNN "RhoS?"
-F 10 "Micron" H 6150 7775 60  0001 C CNN "MFR"
-F 11 "MT41K128M8DA-107:J" H 6250 7875 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 6350 7975 60  0001 C CNN "Mounting"
-F 13 "78" H 6450 8075 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 6550 8175 60  0001 C CNN "Status"
-F 15 "N/A" H 6650 8275 60  0001 C CNN "Tolerance"
-F 16 "DDR3L SDRAM Module" H 6750 8375 60  0001 C CNN "Type"
-F 17 "N/A" H 6850 8475 60  0001 C CNN "Voltage"
-F 18 "N/A" H 6825 7800 60  0001 C CNN "Wattage"
-F 19 "N/A" H 6925 7900 60  0001 C CNN "Component-Value"
-F 20 "IC SDRAM 1GBIT 933MHZ 78FBGA" H 7025 8000 60  0001 C CNN "Description"
-	2    5575 6200
-	1    0    0    -1  
-$EndComp
 Text Label 6575 4125 0    60   ~ 0
 RAM_A3_NC
 Text Label 6575 4225 0    60   ~ 0
@@ -1840,41 +1784,9 @@ Wire Wire Line
 Wire Wire Line
 	4875 5500 4875 5600
 Wire Wire Line
-	1575 5500 2025 5500
+	1575 5500 4875 5500
 Wire Wire Line
-	2025 5500 4875 5500
-Wire Wire Line
-	6325 5500 6325 5600
-Wire Wire Line
-	6325 5600 6325 5700
-Wire Wire Line
-	6325 5700 6325 5800
-Wire Wire Line
-	6325 5800 6325 5900
-Wire Wire Line
-	6325 5900 6325 6150
-Wire Wire Line
-	6325 6150 6325 6250
-Wire Wire Line
-	6325 6250 6325 6350
-Wire Wire Line
-	6325 6350 6325 6450
-Wire Wire Line
-	6325 6450 6325 6550
-Wire Wire Line
-	6325 6550 6325 6650
-Wire Wire Line
-	6325 6650 6325 6750
-Wire Wire Line
-	6325 6750 6325 6850
-Wire Wire Line
-	6325 6850 6325 6950
-Wire Wire Line
-	6325 6950 6325 7050
-Wire Wire Line
-	6325 7050 6325 7150
-Wire Wire Line
-	6325 7150 6325 7250
+	6325 5500 6325 7250
 Connection ~ 6325 5600
 Connection ~ 6325 5700
 Connection ~ 6325 5800
@@ -1891,21 +1803,7 @@ Connection ~ 6325 6950
 Connection ~ 6325 7050
 Connection ~ 6325 7150
 Wire Bus Line
-	9550 2025 9550 2125
-Wire Bus Line
-	9550 2125 9550 2225
-Wire Bus Line
-	9550 2225 9550 2325
-Wire Bus Line
-	9550 2325 9550 2425
-Wire Bus Line
-	9550 2425 9550 2525
-Wire Bus Line
-	9550 2525 9550 2625
-Wire Bus Line
-	9550 2625 9550 2725
-Wire Bus Line
-	9550 2725 9550 2775
+	9550 2025 9550 2775
 Wire Wire Line
 	6950 1925 6525 1925
 Wire Wire Line
@@ -1997,57 +1895,11 @@ Wire Wire Line
 Wire Bus Line
 	9550 2775 10200 2775
 Wire Bus Line
-	2125 2025 2125 2125
-Wire Bus Line
-	2125 2125 2125 2225
-Wire Bus Line
-	2125 2225 2125 2325
-Wire Bus Line
-	2125 2325 2125 2425
-Wire Bus Line
-	2125 2425 2125 2525
-Wire Bus Line
-	2125 2525 2125 2625
-Wire Bus Line
-	2125 2625 2125 2725
-Wire Bus Line
-	2125 2725 2125 2825
-Wire Bus Line
-	2125 2825 2125 2925
-Wire Bus Line
-	2125 2925 2125 3025
-Wire Bus Line
-	2125 3025 2125 3125
-Wire Bus Line
-	2125 3125 2125 3225
-Wire Bus Line
-	2125 3225 2125 3325
-Wire Bus Line
-	2125 3325 2125 3525
-Wire Bus Line
-	2125 3525 2125 3625
-Wire Bus Line
-	2125 3625 2125 3725
-Wire Bus Line
-	2125 3725 2125 3850
+	2125 2025 2125 3850
 Wire Bus Line
 	2125 3850 1250 3850
 Wire Wire Line
-	4875 6450 4875 6550
-Wire Wire Line
-	4875 6550 4875 6650
-Wire Wire Line
-	4875 6650 4875 6750
-Wire Wire Line
-	4875 6750 4875 6850
-Wire Wire Line
-	4875 6850 4875 6950
-Wire Wire Line
-	4875 6950 4875 7050
-Wire Wire Line
-	4875 7050 4875 7150
-Wire Wire Line
-	4875 7150 4875 7250
+	4875 6450 4875 7250
 Connection ~ 4875 6550
 Connection ~ 4875 6650
 Connection ~ 4875 6750
@@ -2068,41 +1920,9 @@ Wire Wire Line
 Wire Wire Line
 	2225 3425 3575 3425
 Wire Wire Line
-	925  6450 1050 6450
+	925  6450 4875 6450
 Wire Wire Line
-	1050 6450 1475 6450
-Wire Wire Line
-	1475 6450 1900 6450
-Wire Wire Line
-	1900 6450 2325 6450
-Wire Wire Line
-	2325 6450 2750 6450
-Wire Wire Line
-	2750 6450 3175 6450
-Wire Wire Line
-	3175 6450 3600 6450
-Wire Wire Line
-	3600 6450 4025 6450
-Wire Wire Line
-	4025 6450 4450 6450
-Wire Wire Line
-	4450 6450 4875 6450
-Wire Wire Line
-	1050 6900 1475 6900
-Wire Wire Line
-	1475 6900 1900 6900
-Wire Wire Line
-	1900 6900 2325 6900
-Wire Wire Line
-	2325 6900 2750 6900
-Wire Wire Line
-	2750 6900 3175 6900
-Wire Wire Line
-	3175 6900 3600 6900
-Wire Wire Line
-	3600 6900 4025 6900
-Wire Wire Line
-	4025 6900 4450 6900
+	1050 6900 4450 6900
 Connection ~ 4025 6900
 Connection ~ 3600 6900
 Connection ~ 3175 6900
@@ -2120,35 +1940,17 @@ Connection ~ 3600 6450
 Connection ~ 4025 6450
 Connection ~ 4450 6450
 Wire Wire Line
-	3075 5750 3175 5750
-Wire Wire Line
-	3175 5750 3600 5750
-Wire Wire Line
-	3600 5750 4025 5750
-Wire Wire Line
-	4025 5750 4450 5750
-Wire Wire Line
-	4450 5750 4875 5750
+	3075 5750 4875 5750
 Connection ~ 4450 5750
 Connection ~ 4025 5750
 Connection ~ 3175 5750
 Connection ~ 3600 5750
 Wire Wire Line
-	3175 6200 3600 6200
-Wire Wire Line
-	3600 6200 3825 6200
-Wire Wire Line
-	3825 6200 4025 6200
-Wire Wire Line
-	4025 6200 4450 6200
+	3175 6200 4450 6200
 Connection ~ 3600 6200
 Connection ~ 4025 6200
 Wire Wire Line
-	4875 5750 4875 5850
-Wire Wire Line
-	4875 5850 4875 5950
-Wire Wire Line
-	4875 5950 4875 6050
+	4875 5750 4875 6050
 Connection ~ 4875 5850
 Connection ~ 4875 5950
 Connection ~ 3825 6200
@@ -2189,23 +1991,7 @@ Wire Wire Line
 Wire Wire Line
 	4875 4775 4175 4775
 Wire Bus Line
-	2125 3925 2125 4025
-Wire Bus Line
-	2125 4025 2125 4125
-Wire Bus Line
-	2125 4125 2125 4225
-Wire Bus Line
-	2125 4225 2125 4325
-Wire Bus Line
-	2125 4325 2125 4475
-Wire Bus Line
-	2125 4475 2125 4675
-Wire Bus Line
-	2125 4675 2125 4775
-Wire Bus Line
-	2125 4775 2125 4875
-Wire Bus Line
-	2125 4875 2125 5050
+	2125 3925 2125 5050
 Wire Bus Line
 	3100 5050 1200 5050
 Wire Wire Line
@@ -2229,13 +2015,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3225 9450 3225
 Wire Bus Line
-	9550 2975 9550 3075
-Wire Bus Line
-	9550 3075 9550 3225
-Wire Bus Line
-	9550 3225 9550 3325
-Wire Bus Line
-	9550 3325 9550 5050
+	9550 2975 9550 5050
 Wire Bus Line
 	9550 5050 3075 5050
 Connection ~ 2025 5500
@@ -2267,4 +2047,60 @@ Text Label 8475 3225 0    60   ~ 0
 DDR3L_TDQS
 Text Label 1300 3850 0    60   ~ 0
 DDR3L_BA[1..17]
+$Comp
+L MT41K512M8DA-107-XIT:P U?
+U 1 1 587F103E
+P 5725 2775
+F 0 "U?" H 5150 3725 60  0000 C CNN
+F 1 "MT41K512M8DA-107-XIT:P" H 5675 675 60  0000 C CNN
+F 2 "PCB_Footprints:MT41K128M8DA_107_J" H 7150 4700 60  0001 C CNN
+F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l_xit_addendum.pdf" H 7350 4825 60  0001 C CNN
+F 4 "7.52430 @ 100" H 5775 3750 60  0001 C CNN "Cost"
+F 5 "7 Jan 2017" H 5800 3850 60  0001 C CNN "Date Created"
+F 6 "7 Jan 2017" H 5900 3950 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6000 4050 60  0001 C CNN "Designer"
+F 8 "0.8mm" H 6100 4150 60  0001 C CNN "Height"
+F 9 "Yes" H 6200 4250 60  0001 C CNN "RhoS?"
+F 10 "Micron" H 6300 4350 60  0001 C CNN "MFR"
+F 11 "MT41K512M8DA-107 XIT:P" H 6400 4450 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6500 4550 60  0001 C CNN "Mounting"
+F 13 "78" H 6600 4650 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6700 4750 60  0001 C CNN "Status"
+F 15 "N/A" H 6800 4850 60  0001 C CNN "Tolerance"
+F 16 "DDR3L SDRAM Module" H 6900 4950 60  0001 C CNN "Type"
+F 17 "N/A" H 7000 5050 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6975 4375 60  0001 C CNN "Wattage"
+F 19 "N/A" H 7075 4475 60  0001 C CNN "Component-Value"
+F 20 "IC SDRAM 1GBIT 933MHZ 78FBGA" H 7175 4575 60  0001 C CNN "Description"
+	1    5725 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MT41K512M8DA-107-XIT:P U?
+U 2 1 587F1841
+P 5575 6200
+F 0 "U?" H 5150 7000 60  0000 C CNN
+F 1 "MT41K512M8DA-107-XIT:P" H 5600 5050 60  0000 C CNN
+F 2 "PCB_Footprints:MT41K128M8DA_107_J" H 7000 8125 60  0001 C CNN
+F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l_xit_addendum.pdf" H 7200 8250 60  0001 C CNN
+F 4 "7.52430 @ 100" H 5625 7175 60  0001 C CNN "Cost"
+F 5 "7 Jan 2017" H 5650 7275 60  0001 C CNN "Date Created"
+F 6 "7 Jan 2017" H 5750 7375 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5850 7475 60  0001 C CNN "Designer"
+F 8 "0.8mm" H 5950 7575 60  0001 C CNN "Height"
+F 9 "Yes" H 6050 7675 60  0001 C CNN "RhoS?"
+F 10 "Micron" H 6150 7775 60  0001 C CNN "MFR"
+F 11 "MT41K512M8DA-107 XIT:P" H 6250 7875 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6350 7975 60  0001 C CNN "Mounting"
+F 13 "78" H 6450 8075 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6550 8175 60  0001 C CNN "Status"
+F 15 "N/A" H 6650 8275 60  0001 C CNN "Tolerance"
+F 16 "DDR3L SDRAM Module" H 6750 8375 60  0001 C CNN "Type"
+F 17 "N/A" H 6850 8475 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6825 7800 60  0001 C CNN "Wattage"
+F 19 "N/A" H 6925 7900 60  0001 C CNN "Component-Value"
+F 20 "IC SDRAM 1GBIT 933MHZ 78FBGA" H 7025 8000 60  0001 C CNN "Description"
+	2    5575 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
