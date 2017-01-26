@@ -65,8 +65,8 @@ $EndSheet
 $Sheet
 S 8800 3225 2000 1900
 U 585AE0EB
-F0 "OV7725 Camera Module" 60
-F1 "OV7725_cam.sch" 60
+F0 "OV04689-H67A CMOS Image Sensor" 60
+F1 "OV04689_H67A.sch" 60
 $EndSheet
 $Sheet
 S 900  2775 2125 1325

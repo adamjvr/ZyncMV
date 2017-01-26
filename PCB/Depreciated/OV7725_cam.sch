@@ -1,0 +1,1351 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Lattice_iCE_FPGA
+LIBS:xess
+LIBS:xilinx6s
+LIBS:xilinx6v
+LIBS:xilinxultra
+LIBS:HydroPWNics_Lib
+LIBS:OnHand-Components-Sym
+LIBS:ZyncMV-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 9
+Title ""
+Date "2016-12-23"
+Rev "0.1a"
+Comp "GhostPCB"
+Comment1 "Designed By: Adam Vadala-Roth"
+Comment2 "Engineer : Adam Vadala-Roth"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OV7725_20mm_Lens LENS?
+U 1 1 5882D747
+P 5025 4850
+F 0 "LENS?" H 4425 5450 60  0000 L CNN
+F 1 "OV7725_20mm_Lens" H 4425 4300 60  0000 L CNN
+F 2 "PCB_Footprints:OV07725_20mm_Lense_Mount" H 5075 6050 60  0001 C CNN
+F 3 "https://cdn.shopify.com/s/files/1/0803/9211/files/OV7725.pdf?3787874186050138641" H 5175 6150 60  0001 C CNN
+F 4 "$4.379 @ 36" H 5275 6250 60  0001 C CNN "Cost"
+F 5 "8 Jan 2017" H 5375 6350 60  0001 C CNN "Date Created"
+F 6 "8 Jan 2017" H 5475 6450 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 5575 6550 60  0001 C CNN "Designer"
+F 8 "2.70mm" H 5675 6650 60  0001 C CNN "Height"
+F 9 "Yes" H 5775 6750 60  0001 C CNN "RHoS?"
+F 10 "OmniVision Technologies Inc" H 5875 6850 60  0001 C CNN "MFR"
+F 11 "OV07725-V28A" H 5975 6950 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6075 7050 60  0001 C CNN "Mounting"
+F 13 "2" H 6175 7150 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6275 7250 60  0001 C CNN "Status"
+F 15 "N/A" H 6375 7350 60  0001 C CNN "Tolerance"
+F 16 "IC IMAGE SENSOR VGA 28-CSP2" H 6475 7450 60  0001 C CNN "Type"
+F 17 "3.3V" H 6575 7550 60  0001 C CNN "Voltage"
+F 18 "N/A" H 7125 7550 60  0001 C CNN "Wattage"
+F 19 "N/A" H 6725 7850 60  0001 C CNN "Componen-Value"
+F 20 "CMOS Image Sensor 640H x 480V 6µm x 6µm Module" H 7325 7750 60  0001 C CNN "Description"
+	1    5025 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5882E070
+P 4225 3975
+F 0 "#PWR?" H 4225 3725 50  0001 C CNN
+F 1 "GND" H 4230 3802 50  0000 C CNN
+F 2 "" H 4225 3975 50  0000 C CNN
+F 3 "" H 4225 3975 50  0000 C CNN
+	1    4225 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5882E088
+P 3000 1775
+F 0 "#PWR?" H 3000 1625 50  0001 C CNN
+F 1 "+3.3V" H 3015 1948 50  0000 C CNN
+F 2 "" H 3000 1775 50  0000 C CNN
+F 3 "" H 3000 1775 50  0000 C CNN
+	1    3000 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR?
+U 1 1 5882E0A0
+P 2675 1775
+F 0 "#PWR?" H 2675 1625 50  0001 C CNN
+F 1 "+1V8" H 2690 1948 50  0000 C CNN
+F 2 "" H 2675 1775 50  0000 C CNN
+F 3 "" H 2675 1775 50  0000 C CNN
+	1    2675 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L OV07725-V28A U?
+U 1 1 588348FE
+P 4825 3325
+F 0 "U?" H 4475 4625 60  0000 C CNN
+F 1 "OV07725-V28A" H 4750 2575 60  0000 C CNN
+F 2 "PCB_Footprints:OV07725-V28A" H 4875 4525 60  0001 C CNN
+F 3 "https://cdn.shopify.com/s/files/1/0803/9211/files/OV7725.pdf?3787874186050138641" H 4975 4625 60  0001 C CNN
+F 4 "$4.379 @ 36" H 5075 4725 60  0001 C CNN "Cost"
+F 5 "8 Jan 2017" H 5175 4825 60  0001 C CNN "Date Created"
+F 6 "8 Jan 2017" H 5275 4925 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 5375 5025 60  0001 C CNN "Designer"
+F 8 "2.70mm" H 5475 5125 60  0001 C CNN "Height"
+F 9 "Yes" H 5575 5225 60  0001 C CNN "RHoS?"
+F 10 "OmniVision Technologies Inc" H 5675 5325 60  0001 C CNN "MFR"
+F 11 "OV07725-V28A" H 5775 5425 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5875 5525 60  0001 C CNN "Mounting"
+F 13 "2" H 5975 5625 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6075 5725 60  0001 C CNN "Status"
+F 15 "N/A" H 6175 5825 60  0001 C CNN "Tolerance"
+F 16 "IC IMAGE SENSOR VGA 28-CSP2" H 6275 5925 60  0001 C CNN "Type"
+F 17 "3.3V" H 6375 6025 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6925 6025 60  0001 C CNN "Wattage"
+F 19 "N/A" H 6525 6325 60  0001 C CNN "Componen-Value"
+F 20 "CMOS Image Sensor 640H x 480V 6µm x 6µm Module" H 7125 6225 60  0001 C CNN "Description"
+	1    4825 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLM15HG601SN1D FB?
+U 1 1 588376EC
+P 2000 5450
+F 0 "FB?" H 2000 5787 60  0000 C CNN
+F 1 "BLM15HG601SN1D" H 2000 5681 60  0000 C CNN
+F 2 "PCB_Footprints:BLM15HG601SN1D" H 1550 5500 60  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0101BLM15H.pdf" H 1650 5600 60  0001 C CNN
+F 4 "0.05090 @ 10000" H 1750 5700 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 1850 5800 60  0001 C CNN "Date Created "
+F 6 "8 Sept 2016" H 1950 5900 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2050 6000 60  0001 C CNN "Designer "
+F 8 "0.4mm" H 2150 6100 60  0001 C CNN "Height"
+F 9 "Yest" H 2250 6200 60  0001 C CNN "RHoS?"
+F 10 "Murata Electronics North America" H 2350 6300 60  0001 C CNN "MFR"
+F 11 "BLM15HG601SN1D" H 2450 6400 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2550 6500 60  0001 C CNN "Mounting"
+F 13 "2" H 2650 6600 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2750 6700 60  0001 C CNN "Status"
+F 15 "N/A" H 2850 6800 60  0001 C CNN "Tolerance"
+F 16 "Ferrite  Beard 300mA" H 2950 6900 60  0001 C CNN "Type"
+F 17 "N/A" H 3050 7000 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3150 7100 60  0001 C CNN "Wattage"
+F 19 "600 ohm 300mA" H 3250 7200 60  0001 C CNN "Component-Value"
+F 20 "FERRITE BEAD 600 OHM 0402 1LN" H 3350 7300 60  0001 C CNN "Description"
+	1    2000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05B104JP5NNNC C?
+U 1 1 588378A2
+P 1400 5700
+F 0 "C?" V 1269 5828 60  0000 L CNN
+F 1 "CL05B104JP5NNNC" V 1375 5828 60  0000 L CNN
+F 2 "PCB_Footprints:C0402" H 1650 5750 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1650 5750 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 1300 5950 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 1400 6050 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1500 6150 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1600 6250 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 1700 6350 60  0001 C CNN "Height"
+F 9 "Yes" H 1800 6450 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 1900 6550 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 2000 6650 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2100 6750 60  0001 C CNN "Mounting"
+F 13 "2" H 2200 6850 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 2300 6950 60  0001 C CNN "Status"
+F 15 "5%" H 2400 7050 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 2500 7150 60  0001 C CNN "Type"
+F 17 "10V" H 2600 7250 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2700 7350 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 1481 5828 60  0000 L CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2900 7550 60  0001 C CNN "Description"
+	1    1400 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L CL05B104JP5NNNC C?
+U 1 1 5883825E
+P 1450 6825
+F 0 "C?" V 1319 6953 60  0000 L CNN
+F 1 "CL05B104JP5NNNC" V 1425 6953 60  0000 L CNN
+F 2 "PCB_Footprints:C0402" H 1700 6875 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1700 6875 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 1350 7075 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 1450 7175 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1550 7275 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1650 7375 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 1750 7475 60  0001 C CNN "Height"
+F 9 "Yes" H 1850 7575 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 1950 7675 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 2050 7775 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2150 7875 60  0001 C CNN "Mounting"
+F 13 "2" H 2250 7975 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 2350 8075 60  0001 C CNN "Status"
+F 15 "5%" H 2450 8175 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 2550 8275 60  0001 C CNN "Type"
+F 17 "10V" H 2650 8375 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2750 8475 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 1531 6953 60  0000 L CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2950 8675 60  0001 C CNN "Description"
+	1    1450 6825
+	0    1    1    0   
+$EndComp
+$Comp
+L CL05B104JP5NNNC C?
+U 1 1 58838603
+P 2600 5700
+F 0 "C?" V 2469 5828 60  0000 L CNN
+F 1 "CL05B104JP5NNNC" V 2575 5828 60  0000 L CNN
+F 2 "PCB_Footprints:C0402" H 2850 5750 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2850 5750 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2500 5950 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2600 6050 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2700 6150 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2800 6250 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2900 6350 60  0001 C CNN "Height"
+F 9 "Yes" H 3000 6450 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 3100 6550 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 3200 6650 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3300 6750 60  0001 C CNN "Mounting"
+F 13 "2" H 3400 6850 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3500 6950 60  0001 C CNN "Status"
+F 15 "5%" H 3600 7050 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3700 7150 60  0001 C CNN "Type"
+F 17 "10V" H 3800 7250 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3900 7350 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2681 5828 60  0000 L CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 4100 7550 60  0001 C CNN "Description"
+	1    2600 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L VDDA #PWR?
+U 1 1 588387AA
+P 2800 5450
+F 0 "#PWR?" H 2800 5300 50  0001 C CNN
+F 1 "VDDA" H 2817 5623 50  0000 C CNN
+F 2 "" H 2800 5450 50  0000 C CNN
+F 3 "" H 2800 5450 50  0000 C CNN
+	1    2800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 588389D4
+P 1200 5450
+F 0 "#PWR?" H 1200 5300 50  0001 C CNN
+F 1 "+3.3V" H 1215 5623 50  0000 C CNN
+F 2 "" H 1200 5450 50  0000 C CNN
+F 3 "" H 1200 5450 50  0000 C CNN
+	1    1200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58838BEA
+P 2000 5900
+F 0 "#PWR?" H 2000 5650 50  0001 C CNN
+F 1 "GND" H 2005 5727 50  0000 C CNN
+F 2 "" H 2000 5900 50  0000 C CNN
+F 3 "" H 2000 5900 50  0000 C CNN
+	1    2000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR?
+U 1 1 5883951B
+P 3350 1775
+F 0 "#PWR?" H 3350 1625 50  0001 C CNN
+F 1 "VDDA" H 3367 1948 50  0000 C CNN
+F 2 "" H 3350 1775 50  0000 C CNN
+F 3 "" H 3350 1775 50  0000 C CNN
+	1    3350 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05B104JP5NNNC C?
+U 1 1 5883A9B4
+P 3775 3725
+F 0 "C?" V 3675 3300 60  0000 L CNN
+F 1 "CL05B104JP5NNNC" V 3750 2750 60  0000 L CNN
+F 2 "PCB_Footprints:C0402" H 4025 3775 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 4025 3775 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 3675 3975 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 3775 4075 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 3875 4175 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3975 4275 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 4075 4375 60  0001 C CNN "Height"
+F 9 "Yes" H 4175 4475 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 4275 4575 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 4375 4675 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 4475 4775 60  0001 C CNN "Mounting"
+F 13 "2" H 4575 4875 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 4675 4975 60  0001 C CNN "Status"
+F 15 "5%" H 4775 5075 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 4875 5175 60  0001 C CNN "Type"
+F 17 "10V" H 4975 5275 60  0001 C CNN "Voltage"
+F 18 "N/A" H 5075 5375 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 3825 3300 60  0000 L CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 5275 5575 60  0001 C CNN "Description"
+	1    3775 3725
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5883ACEB
+P 3775 3975
+F 0 "#PWR?" H 3775 3725 50  0001 C CNN
+F 1 "GND" H 3780 3802 50  0000 C CNN
+F 2 "" H 3775 3975 50  0000 C CNN
+F 3 "" H 3775 3975 50  0000 C CNN
+	1    3775 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05B104JP5NNNC C?
+U 1 1 5883AD93
+P 2650 3725
+F 0 "C?" V 2550 3300 60  0000 L CNN
+F 1 "CL05B104JP5NNNC" V 2625 2750 60  0000 L CNN
+F 2 "PCB_Footprints:C0402" H 2900 3775 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2900 3775 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2550 3975 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2650 4075 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2750 4175 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2850 4275 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2950 4375 60  0001 C CNN "Height"
+F 9 "Yes" H 3050 4475 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 3150 4575 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 3250 4675 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3350 4775 60  0001 C CNN "Mounting"
+F 13 "2" H 3450 4875 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3550 4975 60  0001 C CNN "Status"
+F 15 "5%" H 3650 5075 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3750 5175 60  0001 C CNN "Type"
+F 17 "10V" H 3850 5275 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3950 5375 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2700 3300 60  0000 L CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 4150 5575 60  0001 C CNN "Description"
+	1    2650 3725
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5883AE3B
+P 2650 3975
+F 0 "#PWR?" H 2650 3725 50  0001 C CNN
+F 1 "GND" H 2655 3802 50  0000 C CNN
+F 2 "" H 2650 3975 50  0000 C CNN
+F 3 "" H 2650 3975 50  0000 C CNN
+	1    2650 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL21A226KQQNNNE C?
+U 1 1 5883B7A5
+P 2575 6800
+F 0 "C?" V 2469 6928 60  0000 L CNN
+F 1 "CL21A226KQQNNNE" V 2575 6928 60  0000 L CNN
+F 2 "PCB_Footprints:C0805" H 1825 6850 60  0001 C CNN
+F 3 "https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21A226KQQNNNE.pdf" H 1925 6950 60  0001 C CNN
+F 4 "0.09981 @ 4000" H 2025 7050 60  0001 C CNN "Cost"
+F 5 "8 Jan 2016" H 2125 7150 60  0001 C CNN "Date Created"
+F 6 "8 Jan 2016" H 2225 7250 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 2325 7350 60  0001 C CNN "Designer"
+F 8 "1.40mm" H 2425 7450 60  0001 C CNN "Height"
+F 9 "Yes" H 2525 7550 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 2625 7650 60  0001 C CNN "MFR"
+F 11 "CL21A226KQQNNNE" H 2725 7750 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2825 7850 60  0001 C CNN "Mounting"
+F 13 "2" H 2925 7950 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3025 8050 60  0001 C CNN "Status"
+F 15 "0.5pF" H 3125 8150 60  0001 C CNN "Tolerance"
+F 16 "CAP CER 22PF 50V NP0 0603" H 3225 8250 60  0001 C CNN "Type"
+F 17 "6.3V" H 3325 8350 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3875 8350 60  0001 C CNN "Wattage"
+F 19 "22uF" V 2681 6928 60  0000 L CNN "Componen-Value"
+F 20 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 4075 8550 60  0001 C CNN "Description"
+	1    2575 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L RC1005F103CS R?
+U 1 1 5883BA61
+P 1575 3625
+F 0 "R?" V 1575 3300 60  0000 L CNN
+F 1 "RC1005F103CS" V 1650 2875 60  0000 L CNN
+F 2 "PCB_Footprints:R0402" H 1175 3875 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 1275 4075 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 3125 5575 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 1475 4175 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1575 4275 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1675 4375 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 1775 4475 60  0001 C CNN "Height"
+F 9 "Yes" H 1875 4575 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 1975 4675 60  0001 C CNN "MFR"
+F 11 "RC1005F103CS" H 2075 4775 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2175 4875 60  0001 C CNN "Mounting"
+F 13 "2" H 2275 4975 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2375 5075 60  0001 C CNN "Status"
+F 15 "1%" H 2475 5175 60  0001 C CNN "Tolerance"
+F 16 "passive" H 2575 5275 60  0001 C CNN "Type"
+F 17 "N/A" H 2675 5375 60  0001 C CNN "Voltage"
+F 18 "1/16" H 2775 5475 60  0001 C CNN "Wattage"
+F 19 "10k" V 1725 3300 60  0000 L CNN "Component-Value"
+F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 2975 5675 60  0001 C CNN "Description"
+	1    1575 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5883FF0B
+P 1575 3975
+F 0 "#PWR?" H 1575 3725 50  0001 C CNN
+F 1 "GND" H 1580 3802 50  0000 C CNN
+F 2 "" H 1575 3975 50  0000 C CNN
+F 3 "" H 1575 3975 50  0000 C CNN
+	1    1575 3975
+	1    0    0    -1  
+$EndComp
+Text Notes 4375 5575 0    60   ~ 0
+Lense and Mounting Assembly 
+$Comp
+L +3.3V #PWR?
+U 1 1 58841D71
+P 2000 6575
+F 0 "#PWR?" H 2000 6425 50  0001 C CNN
+F 1 "+3.3V" H 2015 6748 50  0000 C CNN
+F 2 "" H 2000 6575 50  0000 C CNN
+F 3 "" H 2000 6575 50  0000 C CNN
+	1    2000 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58841FD1
+P 2000 7025
+F 0 "#PWR?" H 2000 6775 50  0001 C CNN
+F 1 "GND" H 2005 6852 50  0000 C CNN
+F 2 "" H 2000 7025 50  0000 C CNN
+F 3 "" H 2000 7025 50  0000 C CNN
+	1    2000 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05B104JP5NNNC C?
+U 1 1 58842C69
+P 3725 6825
+F 0 "C?" V 3594 6953 60  0000 L CNN
+F 1 "CL05B104JP5NNNC" V 3700 6953 60  0000 L CNN
+F 2 "PCB_Footprints:C0402" H 3975 6875 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 3975 6875 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 3625 7075 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 3725 7175 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 3825 7275 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3925 7375 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 4025 7475 60  0001 C CNN "Height"
+F 9 "Yes" H 4125 7575 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 4225 7675 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 4325 7775 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 4425 7875 60  0001 C CNN "Mounting"
+F 13 "2" H 4525 7975 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 4625 8075 60  0001 C CNN "Status"
+F 15 "5%" H 4725 8175 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 4825 8275 60  0001 C CNN "Type"
+F 17 "10V" H 4925 8375 60  0001 C CNN "Voltage"
+F 18 "N/A" H 5025 8475 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 3806 6953 60  0000 L CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 5225 8675 60  0001 C CNN "Description"
+	1    3725 6825
+	0    1    1    0   
+$EndComp
+$Comp
+L CL21A226KQQNNNE C?
+U 1 1 58842C80
+P 4850 6800
+F 0 "C?" V 4744 6928 60  0000 L CNN
+F 1 "CL21A226KQQNNNE" V 4850 6928 60  0000 L CNN
+F 2 "PCB_Footprints:C0805" H 4100 6850 60  0001 C CNN
+F 3 "https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21A226KQQNNNE.pdf" H 4200 6950 60  0001 C CNN
+F 4 "0.09981 @ 4000" H 4300 7050 60  0001 C CNN "Cost"
+F 5 "8 Jan 2016" H 4400 7150 60  0001 C CNN "Date Created"
+F 6 "8 Jan 2016" H 4500 7250 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 4600 7350 60  0001 C CNN "Designer"
+F 8 "1.40mm" H 4700 7450 60  0001 C CNN "Height"
+F 9 "Yes" H 4800 7550 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 4900 7650 60  0001 C CNN "MFR"
+F 11 "CL21A226KQQNNNE" H 5000 7750 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5100 7850 60  0001 C CNN "Mounting"
+F 13 "2" H 5200 7950 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5300 8050 60  0001 C CNN "Status"
+F 15 "0.5pF" H 5400 8150 60  0001 C CNN "Tolerance"
+F 16 "CAP CER 22PF 50V NP0 0603" H 5500 8250 60  0001 C CNN "Type"
+F 17 "6.3V" H 5600 8350 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6150 8350 60  0001 C CNN "Wattage"
+F 19 "22uF" V 4956 6928 60  0000 L CNN "Componen-Value"
+F 20 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 6350 8550 60  0001 C CNN "Description"
+	1    4850 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58842C8E
+P 4275 7025
+F 0 "#PWR?" H 4275 6775 50  0001 C CNN
+F 1 "GND" H 4280 6852 50  0000 C CNN
+F 2 "" H 4275 7025 50  0000 C CNN
+F 3 "" H 4275 7025 50  0000 C CNN
+	1    4275 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR?
+U 1 1 58842D3E
+P 4275 6575
+F 0 "#PWR?" H 4275 6425 50  0001 C CNN
+F 1 "+1V8" H 4290 6748 50  0000 C CNN
+F 2 "" H 4275 6575 50  0000 C CNN
+F 3 "" H 4275 6575 50  0000 C CNN
+	1    4275 6575
+	1    0    0    -1  
+$EndComp
+Text HLabel 1100 2925 0    60   Input ~ 0
+CAM_RST
+Text HLabel 1100 3025 0    60   Input ~ 0
+CAM_PWDN
+Text HLabel 9800 2575 2    60   Input ~ 0
+CAM_SCL
+Text HLabel 9800 2925 2    60   Input ~ 0
+CAM_SDA
+$Comp
+L RC1005F472CS R?
+U 1 1 58845BC1
+P 8650 2825
+F 0 "R?" H 9150 2875 60  0000 C CNN
+F 1 "RC1005F472CS" H 8175 2875 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 8250 3075 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8350 3275 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 10200 4775 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 8550 3375 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8650 3475 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8750 3575 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 8850 3675 60  0001 C CNN "Height"
+F 9 "Yes" H 8950 3775 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 9050 3875 60  0001 C CNN "MFR"
+F 11 "RC1005F472CS" H 9150 3975 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9250 4075 60  0001 C CNN "Mounting"
+F 13 "2" H 9350 4175 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9450 4275 60  0001 C CNN "Status"
+F 15 "1%" H 9550 4375 60  0001 C CNN "Tolerance"
+F 16 "passive" H 9650 4475 60  0001 C CNN "Type"
+F 17 "N/A" H 9750 4575 60  0001 C CNN "Voltage"
+F 18 "1/16" H 9850 4675 60  0001 C CNN "Wattage"
+F 19 "4.7k" H 8850 2875 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 4.7K OHM 1% 1/16W 0402" H 10050 4875 60  0001 C CNN "Description"
+	1    8650 2825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4225 3775 4225 3975
+Connection ~ 4225 3875
+Wire Wire Line
+	4225 2425 2675 2425
+Wire Wire Line
+	2675 2425 2675 1775
+Wire Wire Line
+	4225 2325 3000 2325
+Wire Wire Line
+	3000 2325 3000 1775
+Wire Wire Line
+	2400 5450 2800 5450
+Connection ~ 2600 5450
+Wire Wire Line
+	1200 5450 1600 5450
+Connection ~ 1400 5450
+Wire Wire Line
+	1400 5900 2600 5900
+Connection ~ 2000 5900
+Wire Wire Line
+	3350 1775 3350 2125
+Wire Wire Line
+	3350 2125 4225 2125
+Wire Wire Line
+	3775 3925 3775 3975
+Wire Wire Line
+	3775 3475 4225 3475
+Wire Wire Line
+	4225 3375 2650 3375
+Wire Wire Line
+	2650 3375 2650 3475
+Wire Wire Line
+	2650 3925 2650 3975
+Wire Wire Line
+	1575 3925 1575 3975
+Wire Wire Line
+	1575 3325 1575 3125
+Wire Wire Line
+	1575 3125 4225 3125
+Wire Wire Line
+	2575 6575 1450 6575
+Connection ~ 2000 6575
+Connection ~ 2000 7025
+Wire Wire Line
+	1450 7025 2575 7025
+Wire Wire Line
+	4850 6575 3725 6575
+Connection ~ 4275 6575
+Connection ~ 4275 7025
+Wire Wire Line
+	3725 7025 4850 7025
+$Comp
+L RC1005F472CS R?
+U 1 1 588511D6
+P 8625 2475
+F 0 "R?" H 9125 2525 60  0000 C CNN
+F 1 "RC1005F472CS" H 8150 2525 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 8225 2725 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8325 2925 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 10175 4425 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 8525 3025 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8625 3125 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8725 3225 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 8825 3325 60  0001 C CNN "Height"
+F 9 "Yes" H 8925 3425 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 9025 3525 60  0001 C CNN "MFR"
+F 11 "RC1005F472CS" H 9125 3625 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9225 3725 60  0001 C CNN "Mounting"
+F 13 "2" H 9325 3825 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9425 3925 60  0001 C CNN "Status"
+F 15 "1%" H 9525 4025 60  0001 C CNN "Tolerance"
+F 16 "passive" H 9625 4125 60  0001 C CNN "Type"
+F 17 "N/A" H 9725 4225 60  0001 C CNN "Voltage"
+F 18 "1/16" H 9825 4325 60  0001 C CNN "Wattage"
+F 19 "4.7k" H 8825 2525 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 4.7K OHM 1% 1/16W 0402" H 10025 4525 60  0001 C CNN "Description"
+	1    8625 2475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8325 2475 7825 2475
+Wire Wire Line
+	7825 2475 7825 2575
+Connection ~ 7825 2575
+Wire Wire Line
+	8350 2825 7825 2825
+Wire Wire Line
+	7825 2825 7825 2925
+Connection ~ 7825 2925
+$Comp
+L +3.3V #PWR?
+U 1 1 588513B7
+P 8925 2475
+F 0 "#PWR?" H 8925 2325 50  0001 C CNN
+F 1 "+3.3V" H 8940 2648 50  0000 C CNN
+F 2 "" H 8925 2475 50  0000 C CNN
+F 3 "" H 8925 2475 50  0000 C CNN
+	1    8925 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 58854BAE
+P 8950 2825
+F 0 "#PWR?" H 8950 2675 50  0001 C CNN
+F 1 "+3.3V" H 8965 2998 50  0000 C CNN
+F 2 "" H 8950 2825 50  0000 C CNN
+F 3 "" H 8950 2825 50  0000 C CNN
+	1    8950 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 2125 4225 2225
+Text Notes 3650 7350 0    60   ~ 0
+Core Voltage Supply Bypass Capacitors 
+Text Notes 1150 7375 0    60   ~ 0
+Digital Voltage Supply Bypass Capacitors 
+Text Notes 1125 6175 0    60   ~ 0
+Analog Voltage Supply Bypass Capacitors 
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885E619
+P 6125 3075
+F 0 "R?" H 5625 3025 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3025 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3325 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3525 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5025 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 3625 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 3725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 3825 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 3925 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4025 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4125 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4225 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4325 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4425 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4525 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 4625 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 4725 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 4825 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 4925 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3025 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5125 60  0001 C CNN "Description"
+	1    6125 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F4F6
+P 6125 3175
+F 0 "R?" H 5625 3125 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3125 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3425 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3625 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5125 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 3725 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 3825 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 3925 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4025 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4125 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4225 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4325 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4425 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4525 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4625 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 4725 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 4825 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 4925 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5025 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3125 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5225 60  0001 C CNN "Description"
+	1    6125 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F65C
+P 6125 3275
+F 0 "R?" H 5625 3225 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3225 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3525 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3725 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5225 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 3825 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 3925 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4025 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4125 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4225 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4325 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4425 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4525 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4625 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4725 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 4825 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 4925 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5025 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5125 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3225 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5325 60  0001 C CNN "Description"
+	1    6125 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F6CD
+P 6125 3375
+F 0 "R?" H 5625 3325 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3325 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3625 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3825 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5325 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 3925 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4025 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4125 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4225 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4325 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4425 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4525 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4625 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4725 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4825 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 4925 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5025 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5125 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5225 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3325 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5425 60  0001 C CNN "Description"
+	1    6125 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F739
+P 6125 3475
+F 0 "R?" H 5625 3425 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3425 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3725 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3925 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5425 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 4025 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4125 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4225 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4325 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4425 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4525 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4625 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4725 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4825 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4925 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 5025 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5125 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5225 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5325 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3425 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5525 60  0001 C CNN "Description"
+	1    6125 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F7B4
+P 6125 3575
+F 0 "R?" H 5625 3525 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3525 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3825 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 4025 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5525 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 4125 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4225 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4325 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4425 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4525 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4625 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4725 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4825 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4925 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 5025 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 5125 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5225 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5325 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5425 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3525 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5625 60  0001 C CNN "Description"
+	1    6125 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F82A
+P 6125 3675
+F 0 "R?" H 5625 3625 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3625 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3925 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 4125 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5625 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 4225 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4325 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4425 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4525 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4625 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4725 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4825 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4925 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 5025 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 5125 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 5225 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5325 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5425 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5525 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3625 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5725 60  0001 C CNN "Description"
+	1    6125 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885F99B
+P 6125 3775
+F 0 "R?" H 5625 3725 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3725 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 4025 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 4225 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5725 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 4325 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4425 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4525 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4625 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4725 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4825 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4925 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 5025 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 5125 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 5225 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 5325 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5425 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5525 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5625 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3725 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5825 60  0001 C CNN "Description"
+	1    6125 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885FA13
+P 6125 3875
+F 0 "R?" H 5625 3825 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3825 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 4125 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 4325 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5825 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 4425 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4525 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4625 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4725 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4825 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 4925 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 5025 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 5125 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 5225 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 5325 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 5425 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5525 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5625 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5725 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3825 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 5925 60  0001 C CNN "Description"
+	1    6125 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5885FA92
+P 6125 3975
+F 0 "R?" H 5625 3925 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 3925 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 4225 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 4425 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 5925 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 4525 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 4625 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 4725 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 4825 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 4925 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 5025 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 5125 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 5225 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 5325 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 5425 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 5525 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 5625 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 5725 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 5825 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 3925 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 6025 60  0001 C CNN "Description"
+	1    6125 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 3075 8225 3075
+Wire Wire Line
+	6425 3175 8225 3175
+Wire Wire Line
+	6425 3275 8225 3275
+Wire Wire Line
+	6425 3375 8225 3375
+Wire Wire Line
+	6425 3475 8225 3475
+Wire Wire Line
+	6425 3575 8225 3575
+Wire Wire Line
+	6425 3675 8225 3675
+Wire Wire Line
+	6425 3775 8225 3775
+Wire Wire Line
+	6425 3875 8225 3875
+Wire Wire Line
+	6425 3975 8225 3975
+Entry Bus Bus
+	8225 3075 8325 3175
+Entry Bus Bus
+	8225 3175 8325 3275
+Entry Bus Bus
+	8225 3275 8325 3375
+Entry Bus Bus
+	8225 3375 8325 3475
+Entry Bus Bus
+	8225 3475 8325 3575
+Entry Bus Bus
+	8225 3575 8325 3675
+Entry Bus Bus
+	8225 3675 8325 3775
+Entry Bus Bus
+	8225 3775 8325 3875
+Entry Bus Bus
+	8225 3875 8325 3975
+Entry Bus Bus
+	8225 3975 8325 4075
+Wire Bus Line
+	8325 3175 8325 4200
+Wire Bus Line
+	8325 4200 10650 4200
+Text HLabel 10650 4200 2    60   Input ~ 0
+CAM_D
+Wire Wire Line
+	7325 2425 7325 2175
+Wire Wire Line
+	7325 2175 9800 2175
+Wire Wire Line
+	7225 2325 7225 2075
+Wire Wire Line
+	7225 2075 9800 2075
+Wire Wire Line
+	7125 2225 7125 1975
+Wire Wire Line
+	7125 1975 9800 1975
+Wire Wire Line
+	7025 2125 7025 1875
+Wire Wire Line
+	7025 1875 9800 1875
+Text HLabel 9800 1875 2    60   Input ~ 0
+CAM_XCLK
+Text HLabel 9800 1975 2    60   Input ~ 0
+CAM_PCLK
+Text Notes 3300 1025 0    197  ~ 39
+OV0775 60FPS CMOS Image Sensor
+Text HLabel 9800 2075 2    60   Input ~ 0
+CAM_HREF
+Text HLabel 9800 2175 2    60   Input ~ 0
+CAM_VSYNC
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5886689E
+P 6125 2125
+F 0 "R?" H 5625 2075 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 2075 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 2375 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 2575 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 4075 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 2675 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 2775 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 2875 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 2975 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 3075 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 3175 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 3275 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 3375 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 3475 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 3575 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 3675 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 3775 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 3875 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 3975 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 2075 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 4175 60  0001 C CNN "Description"
+	1    6125 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 58866AF4
+P 6125 2225
+F 0 "R?" H 5625 2175 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 2175 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 2475 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 2675 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 4175 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 2775 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 2875 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 2975 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 3075 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 3175 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 3275 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 3375 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 3475 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 3575 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 3675 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 3775 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 3875 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 3975 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 4075 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 2175 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 4275 60  0001 C CNN "Description"
+	1    6125 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 58866B7C
+P 6125 2325
+F 0 "R?" H 5625 2275 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 2275 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 2575 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 2775 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 4275 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 2875 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 2975 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 3075 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 3175 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 3275 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 3375 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 3475 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 3575 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 3675 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 3775 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 3875 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 3975 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 4075 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 4175 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 2275 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 4375 60  0001 C CNN "Description"
+	1    6125 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 58866C03
+P 6125 2425
+F 0 "R?" H 5625 2375 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 2375 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 2675 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 2875 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 4375 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 2975 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 3075 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 3175 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 3275 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 3375 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 3475 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 3575 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 3675 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 3775 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 3875 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 3975 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 4075 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 4175 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 4275 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 2375 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 4475 60  0001 C CNN "Description"
+	1    6125 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 2125 7025 2125
+Wire Wire Line
+	6425 2225 7125 2225
+Wire Wire Line
+	6425 2325 7225 2325
+Wire Wire Line
+	6425 2425 7325 2425
+Wire Wire Line
+	5425 2125 5825 2125
+Wire Wire Line
+	5425 2225 5825 2225
+Wire Wire Line
+	5425 2325 5825 2325
+Wire Wire Line
+	5825 2425 5425 2425
+$Comp
+L ERA-2AEB510X R?
+U 1 1 58867A7E
+P 6125 2575
+F 0 "R?" H 5625 2525 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 2525 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 2825 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3025 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 4525 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 3125 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 3225 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 3325 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 3425 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 3525 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 3625 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 3725 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 3825 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 3925 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4025 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 4125 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 4225 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 4325 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 4425 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 2525 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 4625 60  0001 C CNN "Description"
+	1    6125 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 58867DF9
+P 6125 2925
+F 0 "R?" H 5625 2875 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 6700 2875 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 5725 3175 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 5825 3375 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 7675 4875 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 6025 3475 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 6125 3575 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 6225 3675 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 6325 3775 60  0001 C CNN "Height"
+F 9 "Yes" H 6425 3875 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 6525 3975 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 6625 4075 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6725 4175 60  0001 C CNN "Mounting"
+F 13 "2" H 6825 4275 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6925 4375 60  0001 C CNN "Status"
+F 15 "0.1%" H 7025 4475 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 7125 4575 60  0001 C CNN "Type"
+F 17 "N/A" H 7225 4675 60  0001 C CNN "Voltage"
+F 18 "1/16" H 7325 4775 60  0001 C CNN "Wattage"
+F 19 "51" H 5850 2875 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 7525 4975 60  0001 C CNN "Description"
+	1    6125 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 2575 5425 2575
+Wire Wire Line
+	5425 2925 5825 2925
+Wire Wire Line
+	6425 2575 9800 2575
+Wire Wire Line
+	6425 2925 9800 2925
+Wire Wire Line
+	5825 3975 5425 3975
+Wire Wire Line
+	5425 3875 5825 3875
+Wire Wire Line
+	5825 3775 5425 3775
+Wire Wire Line
+	5425 3675 5825 3675
+Wire Wire Line
+	5825 3575 5425 3575
+Wire Wire Line
+	5425 3475 5825 3475
+Wire Wire Line
+	5825 3375 5425 3375
+Wire Wire Line
+	5425 3275 5825 3275
+Wire Wire Line
+	5825 3175 5425 3175
+Wire Wire Line
+	5425 3075 5825 3075
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5886B0A4
+P 3100 2925
+F 0 "R?" H 2600 2875 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 3675 2875 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 2700 3175 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 2800 3375 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 4650 4875 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 3000 3475 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 3100 3575 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3200 3675 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 3300 3775 60  0001 C CNN "Height"
+F 9 "Yes" H 3400 3875 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 3500 3975 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 3600 4075 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3700 4175 60  0001 C CNN "Mounting"
+F 13 "2" H 3800 4275 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3900 4375 60  0001 C CNN "Status"
+F 15 "0.1%" H 4000 4475 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 4100 4575 60  0001 C CNN "Type"
+F 17 "N/A" H 4200 4675 60  0001 C CNN "Voltage"
+F 18 "1/16" H 4300 4775 60  0001 C CNN "Wattage"
+F 19 "51" H 2825 2875 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 4500 4975 60  0001 C CNN "Description"
+	1    3100 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERA-2AEB510X R?
+U 1 1 5886B355
+P 3100 3025
+F 0 "R?" H 2600 2975 60  0000 C CNN
+F 1 "ERA-2AEB510X" H 3675 2975 60  0000 C CNN
+F 2 "PCB_Footprints:R0402" H 2700 3275 60  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 2800 3475 60  0001 C CNN
+F 4 "0.06021 @ 1000" H 4650 4975 60  0001 C CNN "Cost"
+F 5 "9 Jan 2017" H 3000 3575 60  0001 C CNN "Date Created"
+F 6 "9 Jan 2017" H 3100 3675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3200 3775 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 3300 3875 60  0001 C CNN "Height"
+F 9 "Yes" H 3400 3975 60  0001 C CNN "RHoS?"
+F 10 "Panasonic Electronic Components" H 3500 4075 60  0001 C CNN "MFR"
+F 11 "ERA-2AEB510X" H 3600 4175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3700 4275 60  0001 C CNN "Mounting"
+F 13 "2" H 3800 4375 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3900 4475 60  0001 C CNN "Status"
+F 15 "0.1%" H 4000 4575 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 51 OHM 0.1% 1/16W 0402" H 4100 4675 60  0001 C CNN "Type"
+F 17 "N/A" H 4200 4775 60  0001 C CNN "Voltage"
+F 18 "1/16" H 4300 4875 60  0001 C CNN "Wattage"
+F 19 "51" H 2825 2975 60  0000 C CNN "Component-Value"
+F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film" H 4500 5075 60  0001 C CNN "Description"
+	1    3100 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 2925 3400 2925
+Wire Wire Line
+	4225 3025 3400 3025
+Wire Wire Line
+	2800 3025 1100 3025
+Wire Wire Line
+	1125 2925 2800 2925
+Text Label 8925 4200 0    60   ~ 0
+CAM_D[1..10]
+Text Label 7225 3075 0    60   ~ 0
+CAM_D0
+Text Label 7225 3175 0    60   ~ 0
+CAM_D1
+Text Label 7225 3275 0    60   ~ 0
+CAM_D2
+Text Label 7225 3375 0    60   ~ 0
+CAM_D3
+Text Label 7225 3475 0    60   ~ 0
+CAM_D4
+Text Label 7225 3575 0    60   ~ 0
+CAM_D5
+Text Label 7225 3675 0    60   ~ 0
+CAM_D6
+Text Label 7225 3775 0    60   ~ 0
+CAM_D7
+Text Label 7225 3875 0    60   ~ 0
+CAM_D8
+Text Label 7225 3975 0    60   ~ 0
+CAM_D9
+$EndSCHEMATC

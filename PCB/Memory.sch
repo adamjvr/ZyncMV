@@ -1495,26 +1495,6 @@ F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    3875 4775
 	1    0    0    -1  
 $EndComp
-Entry Bus Bus
-	2125 3925 2225 3825
-Entry Bus Bus
-	2125 4025 2225 3925
-Entry Bus Bus
-	2125 4125 2225 4025
-Entry Bus Bus
-	2125 4225 2225 4125
-Entry Bus Bus
-	2125 4325 2225 4225
-Entry Bus Bus
-	2125 4675 2225 4575
-Entry Bus Bus
-	2125 4775 2225 4675
-Entry Bus Bus
-	2125 4875 2225 4775
-Entry Bus Bus
-	2125 4475 2225 4375
-Text HLabel 1225 5050 0    60   BiDi ~ 0
-CTRL_SIG_BUS
 $Comp
 L ERJ-2RKF2400X R?
 U 1 1 587A4E63
@@ -1554,10 +1534,6 @@ F 3 "" H 7325 3475 50  0000 C CNN
 	1    7325 3475
 	1    0    0    -1  
 $EndComp
-Entry Bus Bus
-	9450 2975 9550 3075
-Entry Bus Bus
-	9450 2875 9550 2975
 $Comp
 L ERA-2AEB510X R?
 U 1 1 587AAABD
@@ -1614,10 +1590,6 @@ F 20 "51 Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    7250 2975
 	1    0    0    -1  
 $EndComp
-Entry Bus Bus
-	9450 3225 9550 3325
-Entry Bus Bus
-	9450 3125 9550 3225
 $Comp
 L ERA-2AEB510X R?
 U 1 1 587AABD3
@@ -1990,10 +1962,6 @@ Wire Wire Line
 	4175 4675 4875 4675
 Wire Wire Line
 	4875 4775 4175 4775
-Wire Bus Line
-	2125 3925 2125 5050
-Wire Bus Line
-	3100 5050 1200 5050
 Wire Wire Line
 	6525 3475 6600 3475
 Wire Wire Line
@@ -2014,13 +1982,7 @@ Wire Wire Line
 	7550 3125 9450 3125
 Wire Wire Line
 	7550 3225 9450 3225
-Wire Bus Line
-	9550 2975 9550 5050
-Wire Bus Line
-	9550 5050 3075 5050
 Connection ~ 2025 5500
-Wire Bus Line
-	9550 3325 9550 3300
 Text Label 8475 1925 0    60   ~ 0
 DDR3L_D0
 Text Label 8475 2025 0    60   ~ 0
