@@ -7,7 +7,7 @@ Specifications:
 - Xilinx XC7Z010-1CLG225C Dual Core ARM Cortex A9 667MHZ + Artix 7 FPGA 28K Cells
 - OV04689-H67A 4K Camera Module
 - Micron DDR3L 512MB (4Gbit)
-- Ti TPS659118A2ZRCT System Power Management Controller 
+- Ti TPS659118A2ZRCT System Power Management Controller
 
 
 Tentative Block Diagram
