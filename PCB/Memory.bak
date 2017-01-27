@@ -40,7 +40,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 8
 Title ""
 Date "2016-12-23"
 Rev "0.1a"
@@ -737,12 +737,10 @@ Entry Bus Bus
 	2125 3225 2225 3125
 Entry Bus Bus
 	2125 3325 2225 3225
-Text HLabel 1250 3850 0    60   BiDi ~ 0
+Text HLabel 1250 3725 0    60   BiDi ~ 0
 MEM_ADDR_BUS
 Text Notes 3325 1825 0    60   ~ 0
-Place impedance matching\n resistors close to Zync SoC
-Text Notes 6650 1850 0    60   ~ 0
-Place impedance matching\n resistors close to Zync SoC
+Place impedance matching/termination\n resistors close to Zync SoC
 $Comp
 L ERA-2AEB510X R?
 U 1 1 5887D295
@@ -1756,9 +1754,41 @@ Wire Wire Line
 Wire Wire Line
 	4875 5500 4875 5600
 Wire Wire Line
-	1575 5500 4875 5500
+	1575 5500 2025 5500
 Wire Wire Line
-	6325 5500 6325 7250
+	2025 5500 4875 5500
+Wire Wire Line
+	6325 5500 6325 5600
+Wire Wire Line
+	6325 5600 6325 5700
+Wire Wire Line
+	6325 5700 6325 5800
+Wire Wire Line
+	6325 5800 6325 5900
+Wire Wire Line
+	6325 5900 6325 6150
+Wire Wire Line
+	6325 6150 6325 6250
+Wire Wire Line
+	6325 6250 6325 6350
+Wire Wire Line
+	6325 6350 6325 6450
+Wire Wire Line
+	6325 6450 6325 6550
+Wire Wire Line
+	6325 6550 6325 6650
+Wire Wire Line
+	6325 6650 6325 6750
+Wire Wire Line
+	6325 6750 6325 6850
+Wire Wire Line
+	6325 6850 6325 6950
+Wire Wire Line
+	6325 6950 6325 7050
+Wire Wire Line
+	6325 7050 6325 7150
+Wire Wire Line
+	6325 7150 6325 7250
 Connection ~ 6325 5600
 Connection ~ 6325 5700
 Connection ~ 6325 5800
@@ -1775,7 +1805,21 @@ Connection ~ 6325 6950
 Connection ~ 6325 7050
 Connection ~ 6325 7150
 Wire Bus Line
-	9550 2025 9550 2775
+	9550 2025 9550 2125
+Wire Bus Line
+	9550 2125 9550 2225
+Wire Bus Line
+	9550 2225 9550 2325
+Wire Bus Line
+	9550 2325 9550 2425
+Wire Bus Line
+	9550 2425 9550 2525
+Wire Bus Line
+	9550 2525 9550 2625
+Wire Bus Line
+	9550 2625 9550 2725
+Wire Bus Line
+	9550 2725 9550 2775
 Wire Wire Line
 	6950 1925 6525 1925
 Wire Wire Line
@@ -1867,11 +1911,55 @@ Wire Wire Line
 Wire Bus Line
 	9550 2775 10200 2775
 Wire Bus Line
-	2125 2025 2125 3850
+	2125 2025 2125 2125
 Wire Bus Line
-	2125 3850 1250 3850
+	2125 2125 2125 2225
+Wire Bus Line
+	2125 2225 2125 2325
+Wire Bus Line
+	2125 2325 2125 2425
+Wire Bus Line
+	2125 2425 2125 2525
+Wire Bus Line
+	2125 2525 2125 2625
+Wire Bus Line
+	2125 2625 2125 2725
+Wire Bus Line
+	2125 2725 2125 2825
+Wire Bus Line
+	2125 2825 2125 2925
+Wire Bus Line
+	2125 2925 2125 3025
+Wire Bus Line
+	2125 3025 2125 3125
+Wire Bus Line
+	2125 3125 2125 3225
+Wire Bus Line
+	2125 3225 2125 3325
+Wire Bus Line
+	2125 3325 2125 3525
+Wire Bus Line
+	2125 3525 2125 3625
+Wire Bus Line
+	2125 3625 2125 3725
+Wire Bus Line
+	2125 3725 1250 3725
 Wire Wire Line
-	4875 6450 4875 7250
+	4875 6450 4875 6550
+Wire Wire Line
+	4875 6550 4875 6650
+Wire Wire Line
+	4875 6650 4875 6750
+Wire Wire Line
+	4875 6750 4875 6850
+Wire Wire Line
+	4875 6850 4875 6950
+Wire Wire Line
+	4875 6950 4875 7050
+Wire Wire Line
+	4875 7050 4875 7150
+Wire Wire Line
+	4875 7150 4875 7250
 Connection ~ 4875 6550
 Connection ~ 4875 6650
 Connection ~ 4875 6750
@@ -1892,9 +1980,41 @@ Wire Wire Line
 Wire Wire Line
 	2225 3425 3575 3425
 Wire Wire Line
-	925  6450 4875 6450
+	925  6450 1050 6450
 Wire Wire Line
-	1050 6900 4450 6900
+	1050 6450 1475 6450
+Wire Wire Line
+	1475 6450 1900 6450
+Wire Wire Line
+	1900 6450 2325 6450
+Wire Wire Line
+	2325 6450 2750 6450
+Wire Wire Line
+	2750 6450 3175 6450
+Wire Wire Line
+	3175 6450 3600 6450
+Wire Wire Line
+	3600 6450 4025 6450
+Wire Wire Line
+	4025 6450 4450 6450
+Wire Wire Line
+	4450 6450 4875 6450
+Wire Wire Line
+	1050 6900 1475 6900
+Wire Wire Line
+	1475 6900 1900 6900
+Wire Wire Line
+	1900 6900 2325 6900
+Wire Wire Line
+	2325 6900 2750 6900
+Wire Wire Line
+	2750 6900 3175 6900
+Wire Wire Line
+	3175 6900 3600 6900
+Wire Wire Line
+	3600 6900 4025 6900
+Wire Wire Line
+	4025 6900 4450 6900
 Connection ~ 4025 6900
 Connection ~ 3600 6900
 Connection ~ 3175 6900
@@ -1912,17 +2032,35 @@ Connection ~ 3600 6450
 Connection ~ 4025 6450
 Connection ~ 4450 6450
 Wire Wire Line
-	3075 5750 4875 5750
+	3075 5750 3175 5750
+Wire Wire Line
+	3175 5750 3600 5750
+Wire Wire Line
+	3600 5750 4025 5750
+Wire Wire Line
+	4025 5750 4450 5750
+Wire Wire Line
+	4450 5750 4875 5750
 Connection ~ 4450 5750
 Connection ~ 4025 5750
 Connection ~ 3175 5750
 Connection ~ 3600 5750
 Wire Wire Line
-	3175 6200 4450 6200
+	3175 6200 3600 6200
+Wire Wire Line
+	3600 6200 3825 6200
+Wire Wire Line
+	3825 6200 4025 6200
+Wire Wire Line
+	4025 6200 4450 6200
 Connection ~ 3600 6200
 Connection ~ 4025 6200
 Wire Wire Line
-	4875 5750 4875 6050
+	4875 5750 4875 5850
+Wire Wire Line
+	4875 5850 4875 5950
+Wire Wire Line
+	4875 5950 4875 6050
 Connection ~ 4875 5850
 Connection ~ 4875 5950
 Connection ~ 3825 6200
@@ -1933,29 +2071,29 @@ Wire Wire Line
 Wire Wire Line
 	4175 4025 4875 4025
 Wire Wire Line
-	2225 3925 3575 3925
+	1250 3925 3575 3925
 Wire Wire Line
-	2225 4025 3575 4025
+	1250 4025 3575 4025
 Wire Wire Line
-	2225 3825 3575 3825
+	1250 3825 3575 3825
 Wire Wire Line
 	4875 4125 4175 4125
 Wire Wire Line
 	4175 4225 4875 4225
 Wire Wire Line
-	2225 4125 3575 4125
+	1250 4125 3575 4125
 Wire Wire Line
-	2225 4225 3575 4225
+	1250 4225 3575 4225
 Wire Wire Line
 	4175 4375 4875 4375
 Wire Wire Line
-	2225 4375 3575 4375
+	1250 4375 3575 4375
 Wire Wire Line
-	2225 4675 3575 4675
+	1250 4675 3575 4675
 Wire Wire Line
-	2225 4775 3575 4775
+	1250 4775 3575 4775
 Wire Wire Line
-	2225 4575 3575 4575
+	1250 4575 3575 4575
 Wire Wire Line
 	4875 4575 4175 4575
 Wire Wire Line
@@ -1971,17 +2109,17 @@ Wire Wire Line
 Wire Wire Line
 	6525 2975 6950 2975
 Wire Wire Line
-	7550 2875 9450 2875
+	7550 2875 10200 2875
 Wire Wire Line
-	7550 2975 9450 2975
+	7550 2975 10200 2975
 Wire Wire Line
 	6950 3125 6525 3125
 Wire Wire Line
 	6525 3225 6950 3225
 Wire Wire Line
-	7550 3125 9450 3125
+	7550 3125 10200 3125
 Wire Wire Line
-	7550 3225 9450 3225
+	7550 3225 10200 3225
 Connection ~ 2025 5500
 Text Label 8475 1925 0    60   ~ 0
 DDR3L_D0
@@ -2007,7 +2145,7 @@ Text Label 8475 3125 0    60   ~ 0
 DDR3L_TDQS#
 Text Label 8475 3225 0    60   ~ 0
 DDR3L_TDQS
-Text Label 1300 3850 0    60   ~ 0
+Text Label 1325 3725 0    60   ~ 0
 DDR3L_BA[1..17]
 $Comp
 L MT41K512M8DA-107-XIT:P U?
@@ -2065,4 +2203,32 @@ F 20 "IC SDRAM 1GBIT 933MHZ 78FBGA" H 7025 8000 60  0001 C CNN "Description"
 	2    5575 6200
 	1    0    0    -1  
 $EndComp
+Text HLabel 1250 3825 0    60   BiDi ~ 0
+DDR3L_CK
+Text HLabel 1250 3925 0    60   BiDi ~ 0
+DDR3L_CK#
+Text HLabel 1250 4025 0    60   BiDi ~ 0
+DDR3L_CKE
+Text HLabel 1250 4125 0    60   BiDi ~ 0
+DDR3L_CS#
+Text HLabel 1250 4225 0    60   BiDi ~ 0
+DDR3L_WE#
+Text HLabel 1250 4375 0    60   BiDi ~ 0
+DDR3L_RAS#
+Text HLabel 1250 4575 0    60   BiDi ~ 0
+DDR3L_CAS#
+Text HLabel 1250 4675 0    60   BiDi ~ 0
+DDR3L_ODT
+Text HLabel 1250 4775 0    60   BiDi ~ 0
+DDR3L_RESET#
+Text HLabel 10200 2875 2    60   BiDi ~ 0
+DDR3L_DQS
+Text HLabel 10200 2975 2    60   BiDi ~ 0
+DDR3L_DQS#
+Text HLabel 10200 3125 2    60   BiDi ~ 0
+DDR3L_TDQS#
+Text HLabel 10200 3225 2    60   BiDi ~ 0
+DDR3L_TDQS
+Text Notes 6650 1825 0    60   ~ 0
+Place impedance matching/termination\n resistors close to Zync SoC
 $EndSCHEMATC

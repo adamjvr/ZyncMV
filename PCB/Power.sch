@@ -40,7 +40,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 8
 Title "ZyncMV Power Supply"
 Date "2016-12-23"
 Rev "0.1a"
