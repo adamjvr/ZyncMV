@@ -577,6 +577,38 @@ X ~ 2 200 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# CL05C090CB5NNNC
+#
+DEF CL05C090CB5NNNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL05C090CB5NNNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" -650 150 60 H I C CNN
+F4 "0.00550 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05C090CB5NNNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.25pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "9pF" -675 -250 60 H V C CNN "Componen-Value"
+F20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # CL10A225KQ8NNNC
 #
 DEF CL10A225KQ8NNNC C 0 40 Y Y 1 F N
@@ -861,6 +893,47 @@ X ~ 6 150 200 98 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# FA-118T_52.0000ME12Z-AC3
+#
+DEF FA-118T_52.0000ME12Z-AC3 X 0 40 Y Y 1 F N
+F0 "X" -100 200 60 H V C CNN
+F1 "FA-118T_52.0000ME12Z-AC3" 650 200 60 H V C CNN
+F2 "PCB_Footprints:FA-118T_52.0000ME12Z-AC3" 1350 2300 60 H I C CNN
+F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-118T_en.pdf" 1600 2100 60 H I C CNN
+F4 "0.28006 @ 1000" 500 800 60 H I C CNN "Cost"
+F5 "4 Feb 2017" 100 400 60 H I C CNN "Date Created "
+F6 "4 Feb 2017" 200 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 300 600 60 H I C CNN "Designer"
+F8 "0.35mm" 600 900 60 H I C CNN "Height"
+F9 "Yes" 700 1000 60 H I C CNN "RHoS?"
+F10 "EPSON" 800 1100 60 H I C CNN "MFR"
+F11 "FA-118T 52.0000ME12Z-AC3" 900 1200 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 1000 1300 60 H I C CNN "Mounting"
+F13 "4" 900 1200 60 H I C CNN "Pin Count#"
+F14 "Active" 1000 1300 60 H I C CNN "Status"
+F15 "N/A" 1100 1400 60 H I C CNN "Tolerance"
+F16 "Crystal Oscillator" 1200 1500 60 H I C CNN "Type"
+F17 "N/A" 1300 1600 60 H I C CNN "Voltage"
+F18 "N/A" 1400 1700 60 H I C CNN "Wattage"
+F19 "52MHz ±15ppm Crystal 9pF" 1500 1800 60 H I C CNN "Component-Value"
+F20 "52MHz ±15ppm Crystal 9pF 80 Ohm -40°C ~ 85°C Surface Mount 4-SMD, No Lead" 1600 1900 60 H I C CNN "Description"
+DRAW
+P 2 1 1 0 -100 -100 150 -100 N
+P 2 1 1 0 -50 -100 -50 -75 N
+P 2 1 1 0 -50 50 -25 50 N
+P 2 1 1 0 -25 -75 -25 125 N
+P 2 1 1 0 75 125 75 -75 N
+P 2 1 1 0 100 -75 100 -100 N
+P 2 1 1 0 100 50 75 50 N
+P 4 1 1 0 -50 125 -50 150 100 150 100 125 N
+P 5 1 1 0 0 100 50 100 50 -50 0 -50 0 100 N
+X ~ 1 -250 50 197 R 50 50 1 1 B
+X ~ 2 -100 -300 197 U 50 50 1 1 B
+X ~ 3 300 50 197 L 50 50 1 1 B
+X ~ 4 150 -300 197 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # FDMC7660
 #
 DEF FDMC7660 Q 0 40 Y Y 1 F N
@@ -1075,6 +1148,38 @@ P 2 0 1 0 0 100 0 -100 N
 P 2 0 1 0 50 100 50 -100 N
 X ~ 1 -200 0 200 R 50 50 1 1 I
 X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM31CR60J107ME39K
+#
+DEF GRM31CR60J107ME39K C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM31CR60J107ME39K" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C1206" -750 50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" -650 150 60 H I C CNN
+F4 "0.12878 @ 6000" -550 250 60 H I C CNN "Cost"
+F5 "4 Feb 2017" -450 350 60 H I C CNN "Date Created"
+F6 "4 Feb 2017" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "1.8mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM31CR60J107ME39K" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "20%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 1206" 650 1450 60 H I C CNN "Type"
+F17 "6.3V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "100uF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "100µF ±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 P
+X ~ 2 225 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1313,6 +1418,42 @@ S -600 550 550 -500 1 1 0 f
 ENDDRAW
 ENDDEF
 #
+# PD3S230HQ-7
+#
+DEF PD3S230HQ-7 D 0 40 Y Y 1 F N
+F0 "D" -275 100 60 H V C CNN
+F1 "PD3S230HQ-7" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:BAT20JFILM" 1425 1925 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/PD3S230HQ.pdf" 1625 2050 60 H I C CNN
+F4 "0.21888 @ 1000" -150 200 60 H I C CNN "Cost"
+F5 "4 Feb 2017" -50 300 60 H I C CNN "Date Created"
+F6 "4 Feb 2017" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "0.7mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "Diodes Incorporated" 450 800 60 H I C CNN "MFR"
+F11 "PD3S230HQ-7" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "DIODE SCHOTTKY 30V 2A POWERDI323" 1050 1400 60 H I C CNN "Type"
+F17 "N/A" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Diode Schottky 30V 2A Surface Mount PowerDI™ 323" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 0 -50 0 N
+P 2 0 1 0 25 50 25 -50 N
+P 2 0 1 0 50 0 25 0 N
+P 4 0 1 0 -25 50 -25 -50 25 0 -25 50 F
+P 3 1 1 0 25 -50 5 -50 5 -35 N
+P 3 1 1 0 25 50 45 50 45 35 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0402FR-072K61L
 #
 DEF RC0402FR-072K61L R 0 40 Y Y 1 F N
@@ -1337,6 +1478,68 @@ F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
 F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
 F19 "2K61" -275 -250 60 H V C CNN "Component-Value"
 F20 "2.61k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0733RL
+#
+DEF RC0402FR-0733RL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0733RL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "4 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "4 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0733RL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "33r" -275 -250 60 H V C CNN "Component-Value"
+F20 "33 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-078K06L
+#
+DEF RC0402FR-078K06L R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-078K06L" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "4 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "4 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-078K06L" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "8k06" -275 -250 60 H V C CNN "Component-Value"
+F20 "8.06k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
 DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -1531,6 +1734,40 @@ DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TPS2051CDBVR
+#
+DEF TPS2051CDBVR U 0 40 Y Y 1 F N
+F0 "U" 250 -50 60 H V C CNN
+F1 "TPS2051CDBVR" 550 -550 60 H V C CNN
+F2 "PCB_Footprints:TPS2051CDBVR" 1500 250 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps2051c.pdf" 1400 50 60 H I C CNN
+F4 "0.58590 @ 1000" 900 150 60 H I C CNN "Cost"
+F5 "4 Feb 2017" 1100 350 60 H I C CNN "Date Created"
+F6 "4 Feb 2017" 1200 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 1300 550 60 H I C CNN "Designer"
+F8 "0.7mm" 1400 650 60 H I C CNN "Height"
+F9 "Yes" 1500 750 60 H I C CNN "RHoS?"
+F10 "Texas Instruments" 1600 850 60 H I C CNN "MFR"
+F11 "TPS2051CDBVR" 1700 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 1800 1050 60 H I C CNN "Mounting"
+F13 "5" 1900 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 2000 1250 60 H I C CNN "Satus"
+F15 "N/A" 2100 1350 60 H I C CNN "Tolerance"
+F16 "USB Power switch" 2200 1450 60 H I C CNN "Type"
+F17 "5" 2550 1850 60 H I C CNN "Voltage"
+F18 "N/A" 2300 1550 60 H I C CNN "Wattage"
+F19 "N/A" 2400 1650 60 H I C CNN "Component-Value"
+F20 "IC USB PWR SW 1CH 0.5A SOT23-5" 2500 1750 60 H I C CNN "Description"
+DRAW
+S 200 -100 750 -500 1 1 0 f
+X OUT 1 0 -300 200 R 50 50 1 1 w
+X GND 2 0 -400 200 R 50 50 1 1 W
+X FLT 3 0 -200 200 R 50 50 1 1 O
+X EN/EN 4 950 -400 200 L 50 50 1 1 I
+X IN 5 950 -200 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -1766,7 +2003,7 @@ X XO 25 50 -1800 200 R 50 50 1 1 O
 X SPK_R 16 50 -1500 200 R 50 50 1 1 B
 X REFCLK 26 50 -1700 200 R 50 50 1 1 I
 X CPEN 17 50 -600 200 R 50 50 1 1 O
-X RESETB 27 50 -1250 200 R 50 50 1 1 I
+X RESETB 27 1250 -500 200 L 50 50 1 1 I
 X DP 18 50 -1000 200 R 50 50 1 1 B
 X VDD1V8 28 50 -350 200 R 50 50 1 1 W
 X DM 19 50 -900 200 R 50 50 1 1 B
