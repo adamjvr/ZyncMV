@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZyncMV-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +41,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 9
 Title ""
 Date "2016-12-23"
 Rev "0.1a"
@@ -726,7 +727,7 @@ L FA-118T_52.0000ME12Z-AC3 X?
 U 1 1 58A564BD
 P 7500 4800
 F 0 "X?" H 7250 5000 60  0000 C CNN
-F 1 "FA-118T_52.0000ME12Z-AC3" H 7875 5100 60  0000 C CNN
+F 1 "FA-118T_52.0000ME12Z-AC3" H 7675 5100 60  0000 C CNN
 F 2 "PCB_Footprints:FA-118T_52.0000ME12Z-AC3" H 8850 7100 60  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-118T_en.pdf" H 9100 6900 60  0001 C CNN
 F 4 "0.28006 @ 1000" H 8000 5600 60  0001 C CNN "Cost"
@@ -1019,29 +1020,57 @@ Wire Wire Line
 $Comp
 L ESDA6V1BC6 DA?
 U 1 1 58A76A53
-P 8900 4675
-F 0 "DA?" H 9178 4728 60  0000 L CNN
-F 1 "ESDA6V1BC6" H 9178 4622 60  0000 L CNN
-F 2 "PCB_Footprints:ESDA6V1BC6" H 8725 4600 60  0001 C CNN
-F 3 "http://www2.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf" H 10000 6175 60  0001 C CNN
-F 4 "$0.14570 @ 3000" H 10650 6325 60  0001 C CNN "Cost"
-F 5 "19 Aug 2016" H 8900 5075 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 9000 5175 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10850 6525 60  0001 C CNN "Designer"
-F 8 "1.3mm" H 9100 5275 60  0001 C CNN "Height"
-F 9 "Yes" H 10750 6425 60  0001 C CNN "RHoS?"
-F 10 "ST Microelectronics" H 9200 5375 60  0001 C CNN "MFR"
-F 11 "ESDA6V1BC6" H 9300 5475 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 9400 5575 60  0001 C CNN "Mounting"
-F 13 "6" H 9500 5675 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 9600 5775 60  0001 C CNN "Status"
-F 15 "N/A" H 9700 5875 60  0001 C CNN "Tolerance"
-F 16 "Diode Array TVS" H 9800 5975 60  0001 C CNN "Type"
-F 17 "4V" H 9900 6075 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10350 6025 60  0001 C CNN "Wattage"
-F 19 "N/A" H 10450 6125 60  0001 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10550 6225 60  0001 C CNN "Description"
-	1    8900 4675
+P 8800 4700
+F 0 "DA?" H 9078 4753 60  0000 L CNN
+F 1 "ESDA6V1BC6" H 9078 4647 60  0000 L CNN
+F 2 "PCB_Footprints:ESDA6V1BC6" H 8625 4625 60  0001 C CNN
+F 3 "http://www2.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf" H 9900 6200 60  0001 C CNN
+F 4 "$0.14570 @ 3000" H 10550 6350 60  0001 C CNN "Cost"
+F 5 "19 Aug 2016" H 8800 5100 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8900 5200 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10750 6550 60  0001 C CNN "Designer"
+F 8 "1.3mm" H 9000 5300 60  0001 C CNN "Height"
+F 9 "Yes" H 10650 6450 60  0001 C CNN "RHoS?"
+F 10 "ST Microelectronics" H 9100 5400 60  0001 C CNN "MFR"
+F 11 "ESDA6V1BC6" H 9200 5500 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9300 5600 60  0001 C CNN "Mounting"
+F 13 "6" H 9400 5700 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9500 5800 60  0001 C CNN "Status"
+F 15 "N/A" H 9600 5900 60  0001 C CNN "Tolerance"
+F 16 "Diode Array TVS" H 9700 6000 60  0001 C CNN "Type"
+F 17 "4V" H 9800 6100 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10250 6050 60  0001 C CNN "Wattage"
+F 19 "N/A" H 10350 6150 60  0001 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10450 6250 60  0001 C CNN "Description"
+	1    8800 4700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8650 4500 8650 3850
+Connection ~ 8650 3850
+Wire Wire Line
+	8800 4500 8800 3750
+Connection ~ 8800 3750
+Wire Wire Line
+	8950 4500 8950 3950
+Connection ~ 8950 3950
+Wire Wire Line
+	8500 4500 8500 3650
+Connection ~ 8500 3650
+Wire Wire Line
+	8650 4900 8800 4900
+$Comp
+L GND #PWR?
+U 1 1 58A78054
+P 8725 5200
+F 0 "#PWR?" H 8725 4950 50  0001 C CNN
+F 1 "GND" H 8730 5027 50  0000 C CNN
+F 2 "" H 8725 5200 50  0001 C CNN
+F 3 "" H 8725 5200 50  0001 C CNN
+	1    8725 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 5200 8725 4900
+Connection ~ 8725 4900
 $EndSCHEMATC

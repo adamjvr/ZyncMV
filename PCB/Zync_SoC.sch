@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZyncMV-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +41,7 @@ EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title ""
 Date "2016-12-23"
 Rev "0.1a"
@@ -51,9 +52,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 1 1 58785F37
 P 10300 2650
+AR Path="/58785F37" Ref="U?"  Part="1" 
+AR Path="/585AE0B8/58785F37" Ref="U?"  Part="1" 
 F 0 "U?" H 11050 2800 60  0000 L CNN
 F 1 "xc7z010clg225" H 10500 500 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 11800 4950 60  0001 C CNN
@@ -78,9 +81,11 @@ F 19 "Dual ARM® Cortex®-A9 MPCore™ with CoreSight™ System On Chip (SOC) IC
 	-1   0    0    -1  
 $EndComp
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 2 1 58785FFF
 P 12750 1300
+AR Path="/58785FFF" Ref="U?"  Part="2" 
+AR Path="/585AE0B8/58785FFF" Ref="U?"  Part="2" 
 F 0 "U?" H 12950 1450 60  0000 L CNN
 F 1 "xc7z010clg225" H 12975 -3450 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 14250 3600 60  0001 C CNN
@@ -105,9 +110,11 @@ F 19 "Dual ARM® Cortex®-A9 MPCore™ with CoreSight™ System On Chip (SOC) IC
 	-1   0    0    -1  
 $EndComp
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 3 1 587860DF
 P 7025 1050
+AR Path="/587860DF" Ref="U?"  Part="3" 
+AR Path="/585AE0B8/587860DF" Ref="U?"  Part="3" 
 F 0 "U?" H 7225 1200 60  0000 L CNN
 F 1 "xc7z010clg225" H 7225 100 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 8525 3350 60  0001 C CNN
@@ -132,9 +139,11 @@ F 19 "Dual ARM® Cortex®-A9 MPCore™ with CoreSight™ System On Chip (SOC) IC
 	1    0    0    -1  
 $EndComp
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 4 1 587861C9
 P 7025 2375
+AR Path="/587861C9" Ref="U?"  Part="4" 
+AR Path="/585AE0B8/587861C9" Ref="U?"  Part="4" 
 F 0 "U?" H 7225 2525 60  0000 L CNN
 F 1 "xc7z010clg225" H 7225 425 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 8525 4675 60  0001 C CNN
@@ -159,9 +168,11 @@ F 19 "Dual ARM® Cortex®-A9 MPCore™ with CoreSight™ System On Chip (SOC) IC
 	1    0    0    -1  
 $EndComp
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 5 1 58786297
 P 7000 4700
+AR Path="/58786297" Ref="U?"  Part="5" 
+AR Path="/585AE0B8/58786297" Ref="U?"  Part="5" 
 F 0 "U?" H 7200 4850 60  0000 L CNN
 F 1 "xc7z010clg225" H 7200 2850 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 8500 7000 60  0001 C CNN
@@ -186,9 +197,11 @@ F 19 "Dual ARM® Cortex®-A9 MPCore™ with CoreSight™ System On Chip (SOC) IC
 	1    0    0    -1  
 $EndComp
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 6 1 587863B3
 P 4650 6650
+AR Path="/587863B3" Ref="U?"  Part="6" 
+AR Path="/585AE0B8/587863B3" Ref="U?"  Part="6" 
 F 0 "U?" H 5675 6825 60  0000 L CNN
 F 1 "xc7z010clg225" H 4850 1400 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 6150 8950 60  0001 C CNN
@@ -213,9 +226,11 @@ F 19 "Dual ARM® Cortex®-A9 MPCore™ with CoreSight™ System On Chip (SOC) IC
 	1    0    0    1   
 $EndComp
 $Comp
-L xc7z010clg225 U?
+L xc7z010clg225-RESCUE-ZyncMV U?
 U 7 1 587864CB
 P 3875 8750
+AR Path="/587864CB" Ref="U?"  Part="7" 
+AR Path="/585AE0B8/587864CB" Ref="U?"  Part="7" 
 F 0 "U?" H 4800 8900 60  0000 L CNN
 F 1 "xc7z010clg225" H 4075 8000 60  0000 L CNN
 F 2 "PCB_Footprints:xc7z010clg225" H 5375 11050 60  0001 C CNN

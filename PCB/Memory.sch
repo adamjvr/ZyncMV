@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZyncMV-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +41,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 9
 Title ""
 Date "2016-12-23"
 Rev "0.1a"
@@ -151,10 +152,8 @@ Entry Bus Bus
 	3425 3325 3525 3225
 Text HLabel 2550 3725 0    60   BiDi ~ 0
 MEM_ADDR_BUS
-Text Notes 3325 1825 0    60   ~ 0
-Place impedance matching/termination\n resistors close to Zync SoC
 Text Notes 3025 950  0    197  ~ 39
-MT41K128M8DA-107:J 1GB DDR3L Memory
+MT41K128M8DA-107:J 512MB DDR3L Memory
 Entry Bus Bus
 	3425 3525 3525 3425
 Entry Bus Bus
@@ -977,6 +976,4 @@ Text HLabel 9175 3125 2    60   BiDi ~ 0
 DDR3L_TDQS#
 Text HLabel 9175 3225 2    60   BiDi ~ 0
 DDR3L_TDQS
-Text Notes 6650 1825 0    60   ~ 0
-Place impedance matching/termination\n resistors close to Zync SoC
 $EndSCHEMATC

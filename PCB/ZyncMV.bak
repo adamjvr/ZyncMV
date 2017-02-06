@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZyncMV-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +41,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title ""
 Date "2016-12-23"
 Rev "0.1a"
@@ -116,18 +117,6 @@ F1 "USB_Transceiver.sch" 60
 $EndSheet
 Text Notes 3625 1050 0    197  ~ 39
 ZyncMV: Realtime Machine Vision
-$Sheet
-S 900  4300 2400 1600
-U 5878744A
-F0 "Zync SoC PMIC" 60
-F1 "SoC_PMIC.sch" 60
-$EndSheet
-$Sheet
-S 900  6125 2400 1525
-U 5878DB5C
-F0 "Zync SoC PMIC 2" 60
-F1 "SoC_PMIC_2.sch" 60
-$EndSheet
 Wire Bus Line
 	3300 1600 4700 1600
 Wire Bus Line
@@ -171,5 +160,11 @@ S 8400 4450 1775 850
 U 5898ADD6
 F0 "USB JTAG/UART" 60
 F1 "USB_Programming.sch" 60
+$EndSheet
+$Sheet
+S 1125 4500 1975 1825
+U 5897FD81
+F0 "SoC PMIC - TPS65400RGZR" 60
+F1 "PMIC_TPS65400RGZR.sch" 60
 $EndSheet
 $EndSCHEMATC
