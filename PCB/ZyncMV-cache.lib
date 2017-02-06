@@ -988,6 +988,192 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RC0402FR-0710K2L
+#
+DEF RC0402FR-0710K2L R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0710K2L" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00122 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0710K2L" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 10.2K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "10.2k" -275 -250 60 H V C CNN "Component-Value"
+F20 "10.2k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0710R2L
+#
+DEF RC0402FR-0710R2L R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0710R2L" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00122 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0710R2L" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 10.2 OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "10.2" -275 -250 60 H V C CNN "Component-Value"
+F20 "10.2 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-07150KL
+#
+DEF RC0402FR-07150KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-07150KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-07150KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 150K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "150k" -275 -250 60 H V C CNN "Component-Value"
+F20 "150k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0716KL
+#
+DEF RC0402FR-0716KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0716KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0716KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 16K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "16k" -275 -250 60 H V C CNN "Component-Value"
+F20 "16k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-07180KL
+#
+DEF RC0402FR-07180KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-07180KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-07180KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 180K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "180k" -275 -250 60 H V C CNN "Component-Value"
+F20 "180k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0720KL
+#
+DEF RC0402FR-0720KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0720KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0720KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 20K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "20k" -275 -250 60 H V C CNN "Component-Value"
+F20 "20k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0402FR-072K61L
 #
 DEF RC0402FR-072K61L R 0 40 Y Y 1 F N
@@ -1016,6 +1202,99 @@ DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0730KL
+#
+DEF RC0402FR-0730KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0730KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0730KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 30K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "30k" -275 -250 60 H V C CNN "Component-Value"
+F20 "30k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0731R6L
+#
+DEF RC0402FR-0731R6L R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0731R6L" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00122 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0731R6L" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 31.6 OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "31.6" -275 -250 60 H V C CNN "Component-Value"
+F20 "31.6 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0733KL
+#
+DEF RC0402FR-0733KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0733KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-0733KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 33K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "33k" -275 -250 60 H V C CNN "Component-Value"
+F20 "33k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1050,6 +1329,68 @@ X ~ 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# RC0402FR-073KL
+#
+DEF RC0402FR-073KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-073KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-073KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 3K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "3k" -275 -250 60 H V C CNN "Component-Value"
+F20 "3k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-0775KL
+#
+DEF RC0402FR-0775KL R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-0775KL" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-07180KL" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 75K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "75k" -275 -250 60 H V C CNN "Component-Value"
+F20 "75k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0402FR-078K06L
 #
 DEF RC0402FR-078K06L R 0 40 Y Y 1 F N
@@ -1078,6 +1419,68 @@ DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-078K2L
+#
+DEF RC0402FR-078K2L R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-078K2L" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-078K2L" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 8.2K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "8K2" -275 -250 60 H V C CNN "Component-Value"
+F20 "8.2k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-078K87L
+#
+DEF RC0402FR-078K87L R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC0402FR-078K87L" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" -300 450 60 H I C CNN
+F4 "0.00137 @ 10000" 1550 1950 60 H I C CNN "Cost"
+F5 "6 Feb 2017" -100 550 60 H I C CNN "Date Created"
+F6 "6 Feb 2017" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Yageo" 400 1050 60 H I C CNN "MFR"
+F11 "RC0402FR-078K87L" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "RES SMD 8.87K OHM 1% 1/16W 0402" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "8.87k" -275 -250 60 H V C CNN "Component-Value"
+F20 "8.87k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
