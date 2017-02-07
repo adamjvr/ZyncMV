@@ -56,7 +56,7 @@ L TPS65400RGZR U?
 U 1 1 58980981
 P 4200 1575
 F 0 "U?" H 4450 1425 60  0000 C CNN
-F 1 "TPS65400RGZR" H 4750 -2725 60  0000 C CNN
+F 1 "TPS65400RGZR" H 4725 -3025 60  0000 C CNN
 F 2 "PCB_Footprints:TPS65400RGZR" H 300 875 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2051c.pdf" H 200 675 60  0001 C CNN
 F 4 "3.60000 @ 1000" H -300 775 60  0001 C CNN "Cost"
@@ -80,22 +80,22 @@ F 20 "Buck Switching Regulator IC Positive Adjustable 0.6V 4 Output 4A, 2A 48-VF
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 6025 5300 6025
+	5200 6325 5300 6325
 Wire Wire Line
-	5300 6025 5400 6025
+	5300 6325 5400 6325
 Wire Wire Line
-	5400 6025 5500 6025
-Connection ~ 5300 6025
-Connection ~ 5400 6025
+	5400 6325 5500 6325
+Connection ~ 5300 6325
+Connection ~ 5400 6325
 $Comp
 L GND #PWR?
 U 1 1 58984FD5
-P 5500 6025
-F 0 "#PWR?" H 5550 6075 50  0001 C CNN
-F 1 "GND" H 5505 5852 50  0000 C CNN
-F 2 "" H -375 -50 50  0001 C CNN
-F 3 "" H -375 -50 50  0001 C CNN
-	1    5500 6025
+P 5500 6325
+F 0 "#PWR?" H 5550 6375 50  0001 C CNN
+F 1 "GND" H 5505 6152 50  0000 C CNN
+F 2 "" H -375 250 50  0001 C CNN
+F 3 "" H -375 250 50  0001 C CNN
+	1    5500 6325
 	1    0    0    -1  
 $EndComp
 Text Notes 3250 1050 0    197  ~ 39
@@ -103,85 +103,85 @@ System PMIC - TPS65400RGZR
 $Comp
 L RC0402FR-0710K2L R?
 U 1 1 589BAC13
-P 8075 5775
-F 0 "R?" H 8075 6022 60  0000 C CNN
-F 1 "RC0402FR-0710K2L" H 8075 6022 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H -575 4325 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -475 4525 60  0001 C CNN
-F 4 "0.00122 @ 10000" H 1375 6025 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H -275 4625 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H -175 4725 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H -75 4825 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 25  4925 60  0001 C CNN "Height"
-F 9 "Yes" H 125 5025 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H 225 5125 60  0001 C CNN "MFR"
-F 11 "RC0402FR-0710K2L" H 325 5225 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 425 5325 60  0001 C CNN "Mounting"
-F 13 "2" H 525 5425 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 625 5525 60  0001 C CNN "Status"
-F 15 "1%" H 725 5625 60  0001 C CNN "Tolerance"
-F 16 "RES SMD 10.2K OHM 1% 1/16W 0402" H 825 5725 60  0001 C CNN "Type"
-F 17 "N/A" H 925 5825 60  0001 C CNN "Voltage"
-F 18 "1/16" H 1025 5925 60  0001 C CNN "Wattage"
-F 19 "10.2k" H 8075 5916 60  0000 C CNN "Component-Value"
-F 20 "10.2k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1225 6125 60  0001 C CNN "Description"
-	1    8075 5775
+P 8075 6075
+F 0 "R?" H 8075 6322 60  0000 C CNN
+F 1 "RC0402FR-0710K2L" H 8075 6322 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H -575 4625 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -475 4825 60  0001 C CNN
+F 4 "0.00122 @ 10000" H 1375 6325 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H -275 4925 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H -175 5025 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H -75 5125 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 25  5225 60  0001 C CNN "Height"
+F 9 "Yes" H 125 5325 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H 225 5425 60  0001 C CNN "MFR"
+F 11 "RC0402FR-0710K2L" H 325 5525 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 425 5625 60  0001 C CNN "Mounting"
+F 13 "2" H 525 5725 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 625 5825 60  0001 C CNN "Status"
+F 15 "1%" H 725 5925 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 10.2K OHM 1% 1/16W 0402" H 825 6025 60  0001 C CNN "Type"
+F 17 "N/A" H 925 6125 60  0001 C CNN "Voltage"
+F 18 "1/16" H 1025 6225 60  0001 C CNN "Wattage"
+F 19 "10.2k" H 8075 6216 60  0000 C CNN "Component-Value"
+F 20 "10.2k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1225 6425 60  0001 C CNN "Description"
+	1    8075 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L RC0402FR-0710R2L R?
 U 1 1 589BACC8
-P 8100 3825
-F 0 "R?" H 8100 4072 60  0000 C CNN
-F 1 "RC0402FR-0710R2L" H 8100 4072 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H -525 1600 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -425 1800 60  0001 C CNN
-F 4 "0.00122 @ 10000" H 1425 3300 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H -225 1900 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H -125 2000 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H -25 2100 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 75  2200 60  0001 C CNN "Height"
-F 9 "Yes" H 175 2300 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H 275 2400 60  0001 C CNN "MFR"
-F 11 "RC0402FR-0710R2L" H 375 2500 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 475 2600 60  0001 C CNN "Mounting"
-F 13 "2" H 575 2700 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 675 2800 60  0001 C CNN "Status"
-F 15 "1%" H 775 2900 60  0001 C CNN "Tolerance"
-F 16 "RES SMD 10.2 OHM 1% 1/16W 0402" H 875 3000 60  0001 C CNN "Type"
-F 17 "N/A" H 975 3100 60  0001 C CNN "Voltage"
-F 18 "1/16" H 1075 3200 60  0001 C CNN "Wattage"
-F 19 "10.2" H 8100 3966 60  0000 C CNN "Component-Value"
-F 20 "10.2 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1275 3400 60  0001 C CNN "Description"
-	1    8100 3825
+P 8075 3825
+F 0 "R?" H 8075 4072 60  0000 C CNN
+F 1 "RC0402FR-0710R2L" H 8075 4072 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H -550 1600 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -450 1800 60  0001 C CNN
+F 4 "0.00122 @ 10000" H 1400 3300 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H -250 1900 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H -150 2000 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H -50 2100 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 50  2200 60  0001 C CNN "Height"
+F 9 "Yes" H 150 2300 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H 250 2400 60  0001 C CNN "MFR"
+F 11 "RC0402FR-0710R2L" H 350 2500 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 450 2600 60  0001 C CNN "Mounting"
+F 13 "2" H 550 2700 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 650 2800 60  0001 C CNN "Status"
+F 15 "1%" H 750 2900 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 10.2 OHM 1% 1/16W 0402" H 850 3000 60  0001 C CNN "Type"
+F 17 "N/A" H 950 3100 60  0001 C CNN "Voltage"
+F 18 "1/16" H 1050 3200 60  0001 C CNN "Wattage"
+F 19 "10.2" H 8075 3966 60  0000 C CNN "Component-Value"
+F 20 "10.2 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1250 3400 60  0001 C CNN "Description"
+	1    8075 3825
 	1    0    0    -1  
 $EndComp
 $Comp
 L RC0402FR-07150KL R?
 U 1 1 589BAD75
-P 3650 5475
-F 0 "R?" H 3650 5722 60  0000 C CNN
-F 1 "RC0402FR-07150KL" H 3650 5722 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H -5275 2925 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -5175 3125 60  0001 C CNN
-F 4 "0.00137 @ 10000" H -3325 4625 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H -4975 3225 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H -4875 3325 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H -4775 3425 60  0001 C CNN "Designer"
-F 8 "0.4mm" H -4675 3525 60  0001 C CNN "Height"
-F 9 "Yes" H -4575 3625 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H -4475 3725 60  0001 C CNN "MFR"
-F 11 "RC0402FR-07150KL" H -4375 3825 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H -4275 3925 60  0001 C CNN "Mounting"
-F 13 "2" H -4175 4025 60  0001 C CNN "Pin Count#"
-F 14 "Active" H -4075 4125 60  0001 C CNN "Status"
-F 15 "1%" H -3975 4225 60  0001 C CNN "Tolerance"
-F 16 "RES SMD 150K OHM 1% 1/16W 0402" H -3875 4325 60  0001 C CNN "Type"
-F 17 "N/A" H -3775 4425 60  0001 C CNN "Voltage"
-F 18 "1/16" H -3675 4525 60  0001 C CNN "Wattage"
-F 19 "150k" H 3650 5616 60  0000 C CNN "Component-Value"
-F 20 "150k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H -3475 4725 60  0001 C CNN "Description"
-	1    3650 5475
+P 3650 5775
+F 0 "R?" H 3650 6022 60  0000 C CNN
+F 1 "RC0402FR-07150KL" H 3650 6022 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H -5275 3225 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -5175 3425 60  0001 C CNN
+F 4 "0.00137 @ 10000" H -3325 4925 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H -4975 3525 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H -4875 3625 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H -4775 3725 60  0001 C CNN "Designer"
+F 8 "0.4mm" H -4675 3825 60  0001 C CNN "Height"
+F 9 "Yes" H -4575 3925 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H -4475 4025 60  0001 C CNN "MFR"
+F 11 "RC0402FR-07150KL" H -4375 4125 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H -4275 4225 60  0001 C CNN "Mounting"
+F 13 "2" H -4175 4325 60  0001 C CNN "Pin Count#"
+F 14 "Active" H -4075 4425 60  0001 C CNN "Status"
+F 15 "1%" H -3975 4525 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 150K OHM 1% 1/16W 0402" H -3875 4625 60  0001 C CNN "Type"
+F 17 "N/A" H -3775 4725 60  0001 C CNN "Voltage"
+F 18 "1/16" H -3675 4825 60  0001 C CNN "Wattage"
+F 19 "150k" H 3650 5916 60  0000 C CNN "Component-Value"
+F 20 "150k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H -3475 5025 60  0001 C CNN "Description"
+	1    3650 5775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -271,57 +271,57 @@ $EndComp
 $Comp
 L RC0402FR-0730KL R?
 U 1 1 589BB0D9
-P 8100 3025
-F 0 "R?" H 8100 2788 60  0000 C CNN
-F 1 "RC0402FR-0730KL" H 8100 3272 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H -400 -850 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -300 -650 60  0001 C CNN
-F 4 "0.00137 @ 10000" H 1550 850 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H -100 -550 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H 0   -450 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 100 -350 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 200 -250 60  0001 C CNN "Height"
-F 9 "Yes" H 300 -150 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H 400 -50 60  0001 C CNN "MFR"
-F 11 "RC0402FR-0730KL" H 500 50  60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 600 150 60  0001 C CNN "Mounting"
-F 13 "2" H 700 250 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 800 350 60  0001 C CNN "Status"
-F 15 "1%" H 900 450 60  0001 C CNN "Tolerance"
-F 16 "RES SMD 30K OHM 1% 1/16W 0402" H 1000 550 60  0001 C CNN "Type"
-F 17 "N/A" H 1100 650 60  0001 C CNN "Voltage"
-F 18 "1/16" H 1200 750 60  0001 C CNN "Wattage"
-F 19 "30k" H 8100 2894 60  0000 C CNN "Component-Value"
-F 20 "30k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1400 950 60  0001 C CNN "Description"
-	1    8100 3025
+P 8100 2875
+F 0 "R?" H 8100 2638 60  0000 C CNN
+F 1 "RC0402FR-0730KL" H 8100 3122 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H -400 -1000 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -300 -800 60  0001 C CNN
+F 4 "0.00137 @ 10000" H 1550 700 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H -100 -700 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H 0   -600 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 100 -500 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 200 -400 60  0001 C CNN "Height"
+F 9 "Yes" H 300 -300 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H 400 -200 60  0001 C CNN "MFR"
+F 11 "RC0402FR-0730KL" H 500 -100 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 600 0   60  0001 C CNN "Mounting"
+F 13 "2" H 700 100 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 800 200 60  0001 C CNN "Status"
+F 15 "1%" H 900 300 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 30K OHM 1% 1/16W 0402" H 1000 400 60  0001 C CNN "Type"
+F 17 "N/A" H 1100 500 60  0001 C CNN "Voltage"
+F 18 "1/16" H 1200 600 60  0001 C CNN "Wattage"
+F 19 "30k" H 8100 2744 60  0000 C CNN "Component-Value"
+F 20 "30k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1400 800 60  0001 C CNN "Description"
+	1    8100 2875
 	-1   0    0    1   
 $EndComp
 $Comp
 L RC0402FR-0731R6L R?
 U 1 1 589BB1A8
-P 7800 3525
-F 0 "R?" V 7750 3250 60  0000 L CNN
-F 1 "RC0402FR-0731R6L" V 7800 3613 60  0001 L CNN
-F 2 "PCB_Footprints:R0402" H -100 -600 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 0   -400 60  0001 C CNN
-F 4 "0.00122 @ 10000" H 1850 1100 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H 200 -300 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H 300 -200 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 400 -100 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 500 0   60  0001 C CNN "Height"
-F 9 "Yes" H 600 100 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H 700 200 60  0001 C CNN "MFR"
-F 11 "RC0402FR-0731R6L" H 800 300 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 900 400 60  0001 C CNN "Mounting"
-F 13 "2" H 1000 500 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1100 600 60  0001 C CNN "Status"
-F 15 "1%" H 1200 700 60  0001 C CNN "Tolerance"
-F 16 "RES SMD 31.6 OHM 1% 1/16W 0402" H 1300 800 60  0001 C CNN "Type"
-F 17 "N/A" H 1400 900 60  0001 C CNN "Voltage"
-F 18 "1/16" H 1500 1000 60  0001 C CNN "Wattage"
-F 19 "31.6" V 7850 3250 60  0000 L CNN "Component-Value"
-F 20 "31.6 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1700 1200 60  0001 C CNN "Description"
-	1    7800 3525
+P 7775 3525
+F 0 "R?" V 7725 3250 60  0000 L CNN
+F 1 "RC0402FR-0731R6L" V 7775 3613 60  0001 L CNN
+F 2 "PCB_Footprints:R0402" H -125 -600 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H -25 -400 60  0001 C CNN
+F 4 "0.00122 @ 10000" H 1825 1100 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H 175 -300 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H 275 -200 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 375 -100 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 475 0   60  0001 C CNN "Height"
+F 9 "Yes" H 575 100 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H 675 200 60  0001 C CNN "MFR"
+F 11 "RC0402FR-0731R6L" H 775 300 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 875 400 60  0001 C CNN "Mounting"
+F 13 "2" H 975 500 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 1075 600 60  0001 C CNN "Status"
+F 15 "1%" H 1175 700 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 31.6 OHM 1% 1/16W 0402" H 1275 800 60  0001 C CNN "Type"
+F 17 "N/A" H 1375 900 60  0001 C CNN "Voltage"
+F 18 "1/16" H 1475 1000 60  0001 C CNN "Wattage"
+F 19 "31.6" V 7825 3250 60  0000 L CNN "Component-Value"
+F 20 "31.6 Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1675 1200 60  0001 C CNN "Description"
+	1    7775 3525
 	0    1    1    0   
 $EndComp
 $Comp
@@ -411,105 +411,105 @@ $EndComp
 $Comp
 L RC0402FR-078K2L R?
 U 1 1 589BB590
-P 7800 2725
-F 0 "R?" V 7750 2500 60  0000 L CNN
-F 1 "RC0402FR-078K2L" H 7800 2972 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 125 -1275 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 225 -1075 60  0001 C CNN
-F 4 "0.00137 @ 10000" H 2075 425 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H 425 -975 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H 525 -875 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 625 -775 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 725 -675 60  0001 C CNN "Height"
-F 9 "Yes" H 825 -575 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H 925 -475 60  0001 C CNN "MFR"
-F 11 "RC0402FR-078K2L" H 1025 -375 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1125 -275 60  0001 C CNN "Mounting"
-F 13 "2" H 1225 -175 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1325 -75 60  0001 C CNN "Status"
-F 15 "1%" H 1425 25  60  0001 C CNN "Tolerance"
-F 16 "RES SMD 8.2K OHM 1% 1/16W 0402" H 1525 125 60  0001 C CNN "Type"
-F 17 "N/A" H 1625 225 60  0001 C CNN "Voltage"
-F 18 "1/16" H 1725 325 60  0001 C CNN "Wattage"
-F 19 "8K2" V 7850 2475 60  0000 L CNN "Component-Value"
-F 20 "8.2k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1925 525 60  0001 C CNN "Description"
-	1    7800 2725
+P 7800 2575
+F 0 "R?" V 7750 2350 60  0000 L CNN
+F 1 "RC0402FR-078K2L" H 7800 2822 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 125 -1425 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 225 -1225 60  0001 C CNN
+F 4 "0.00137 @ 10000" H 2075 275 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H 425 -1125 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H 525 -1025 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 625 -925 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 725 -825 60  0001 C CNN "Height"
+F 9 "Yes" H 825 -725 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H 925 -625 60  0001 C CNN "MFR"
+F 11 "RC0402FR-078K2L" H 1025 -525 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 1125 -425 60  0001 C CNN "Mounting"
+F 13 "2" H 1225 -325 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 1325 -225 60  0001 C CNN "Status"
+F 15 "1%" H 1425 -125 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 8.2K OHM 1% 1/16W 0402" H 1525 -25 60  0001 C CNN "Type"
+F 17 "N/A" H 1625 75  60  0001 C CNN "Voltage"
+F 18 "1/16" H 1725 175 60  0001 C CNN "Wattage"
+F 19 "8K2" V 7850 2325 60  0000 L CNN "Component-Value"
+F 20 "8.2k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1925 375 60  0001 C CNN "Description"
+	1    7800 2575
 	0    1    1    0   
 $EndComp
 $Comp
 L RC0402FR-078K87L R?
 U 1 1 589BB661
-P 7775 5475
-F 0 "R?" V 7725 5150 60  0000 L CNN
-F 1 "RC0402FR-078K87L" H 7775 5722 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 125 1800 60  0001 C CNN
-F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 225 2000 60  0001 C CNN
-F 4 "0.00137 @ 10000" H 2075 3500 60  0001 C CNN "Cost"
-F 5 "6 Feb 2017" H 425 2100 60  0001 C CNN "Date Created"
-F 6 "6 Feb 2017" H 525 2200 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 625 2300 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 725 2400 60  0001 C CNN "Height"
-F 9 "Yes" H 825 2500 60  0001 C CNN "RHoS?"
-F 10 "Yageo" H 925 2600 60  0001 C CNN "MFR"
-F 11 "RC0402FR-078K87L" H 1025 2700 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1125 2800 60  0001 C CNN "Mounting"
-F 13 "2" H 1225 2900 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1325 3000 60  0001 C CNN "Status"
-F 15 "1%" H 1425 3100 60  0001 C CNN "Tolerance"
-F 16 "RES SMD 8.87K OHM 1% 1/16W 0402" H 1525 3200 60  0001 C CNN "Type"
-F 17 "N/A" H 1625 3300 60  0001 C CNN "Voltage"
-F 18 "1/16" H 1725 3400 60  0001 C CNN "Wattage"
-F 19 "8.87k" V 7825 5150 60  0000 L CNN "Component-Value"
-F 20 "8.87k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1925 3600 60  0001 C CNN "Description"
-	1    7775 5475
+P 7775 5775
+F 0 "R?" V 7725 5450 60  0000 L CNN
+F 1 "RC0402FR-078K87L" H 7775 6022 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 125 2100 60  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 225 2300 60  0001 C CNN
+F 4 "0.00137 @ 10000" H 2075 3800 60  0001 C CNN "Cost"
+F 5 "6 Feb 2017" H 425 2400 60  0001 C CNN "Date Created"
+F 6 "6 Feb 2017" H 525 2500 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 625 2600 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 725 2700 60  0001 C CNN "Height"
+F 9 "Yes" H 825 2800 60  0001 C CNN "RHoS?"
+F 10 "Yageo" H 925 2900 60  0001 C CNN "MFR"
+F 11 "RC0402FR-078K87L" H 1025 3000 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 1125 3100 60  0001 C CNN "Mounting"
+F 13 "2" H 1225 3200 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 1325 3300 60  0001 C CNN "Status"
+F 15 "1%" H 1425 3400 60  0001 C CNN "Tolerance"
+F 16 "RES SMD 8.87K OHM 1% 1/16W 0402" H 1525 3500 60  0001 C CNN "Type"
+F 17 "N/A" H 1625 3600 60  0001 C CNN "Voltage"
+F 18 "1/16" H 1725 3700 60  0001 C CNN "Wattage"
+F 19 "8.87k" V 7825 5450 60  0000 L CNN "Component-Value"
+F 20 "8.87k Ohm ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 1925 3900 60  0001 C CNN "Description"
+	1    7775 5775
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7800 3025 7250 3025
+	7800 2875 7250 2875
 Wire Wire Line
-	7250 3025 7250 2775
+	7250 2875 7250 2625
 Wire Wire Line
-	7250 2775 6150 2775
+	7250 2625 6150 2625
 Wire Wire Line
-	6150 2425 6150 2525
+	6150 2275 6150 2375
 Wire Wire Line
-	6150 2525 6150 2625
-Connection ~ 6150 2525
+	6150 2375 6150 2475
+Connection ~ 6150 2375
 $Comp
 L CL05A104JO5NNNC C?
 U 1 1 589BDB46
-P 6400 2275
-F 0 "C?" H 6375 2562 60  0000 C CNN
-F 1 "CL05A104JO5NNNC" H 6375 2562 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H -25 375 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H -25 375 60  0001 C CNN
-F 4 "0.00326 @ 10000" H -375 575 60  0001 C CNN "Cost"
-F 5 "13 Jan 2017" H -275 675 60  0001 C CNN "Date Created"
-F 6 "13 Jan 2017" H -175 775 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H -75 875 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 25  975 60  0001 C CNN "Height"
-F 9 "Yes" H 125 1075 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 225 1175 60  0001 C CNN "MFR"
-F 11 "CL05A104JO5NNNC" H 325 1275 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 425 1375 60  0001 C CNN "Mounting"
-F 13 "2" H 525 1475 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 625 1575 60  0001 C CNN "Status"
-F 15 "5%" H 725 1675 60  0001 C CNN "Tolerance"
-F 16 "CAP CER 0.1UF 16V X5R 0402" H 825 1775 60  0001 C CNN "Type"
-F 17 "10V" H 925 1875 60  0001 C CNN "Voltage"
-F 18 "N/A" H 1025 1975 60  0001 C CNN "Wattage"
-F 19 "0.10uF" H 6375 2456 60  0000 C CNN "Component-Value"
-F 20 "0.10µF ±5% 16V Ceramic Capacitor X5R 0402 (1005 Metric)" H 1225 2175 60  0001 C CNN "Description"
-	1    6400 2275
+P 6400 2125
+F 0 "C?" H 6375 2412 60  0000 C CNN
+F 1 "CL05A104JO5NNNC" H 6375 2412 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H -25 225 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H -25 225 60  0001 C CNN
+F 4 "0.00326 @ 10000" H -375 425 60  0001 C CNN "Cost"
+F 5 "13 Jan 2017" H -275 525 60  0001 C CNN "Date Created"
+F 6 "13 Jan 2017" H -175 625 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H -75 725 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 25  825 60  0001 C CNN "Height"
+F 9 "Yes" H 125 925 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 225 1025 60  0001 C CNN "MFR"
+F 11 "CL05A104JO5NNNC" H 325 1125 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 425 1225 60  0001 C CNN "Mounting"
+F 13 "2" H 525 1325 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 625 1425 60  0001 C CNN "Status"
+F 15 "5%" H 725 1525 60  0001 C CNN "Tolerance"
+F 16 "CAP CER 0.1UF 16V X5R 0402" H 825 1625 60  0001 C CNN "Type"
+F 17 "10V" H 925 1725 60  0001 C CNN "Voltage"
+F 18 "N/A" H 1025 1825 60  0001 C CNN "Wattage"
+F 19 "0.10uF" H 6375 2306 60  0000 C CNN "Component-Value"
+F 20 "0.10µF ±5% 16V Ceramic Capacitor X5R 0402 (1005 Metric)" H 1225 2025 60  0001 C CNN "Description"
+	1    6400 2125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2425 6600 2425
+	6150 2275 6600 2275
 Wire Wire Line
-	6600 2425 6775 2425
+	6600 2275 6775 2275
 Wire Wire Line
-	6600 2425 6600 2275
-Connection ~ 6600 2425
+	6600 2275 6600 2125
+Connection ~ 6600 2275
 $Comp
 L CL05A104JO5NNNC C?
 U 1 1 589BE0FE
@@ -583,70 +583,64 @@ Connection ~ 6600 4525
 $Comp
 L CL05A104JO5NNNC C?
 U 1 1 589BE7C4
-P 6400 5025
-F 0 "C?" H 6200 5150 60  0000 C CNN
-F 1 "CL05A104JO5NNNC" H 6375 5312 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H -25 3125 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H -25 3125 60  0001 C CNN
-F 4 "0.00326 @ 10000" H -375 3325 60  0001 C CNN "Cost"
-F 5 "13 Jan 2017" H -275 3425 60  0001 C CNN "Date Created"
-F 6 "13 Jan 2017" H -175 3525 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H -75 3625 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 25  3725 60  0001 C CNN "Height"
-F 9 "Yes" H 125 3825 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 225 3925 60  0001 C CNN "MFR"
-F 11 "CL05A104JO5NNNC" H 325 4025 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 425 4125 60  0001 C CNN "Mounting"
-F 13 "2" H 525 4225 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 625 4325 60  0001 C CNN "Status"
-F 15 "5%" H 725 4425 60  0001 C CNN "Tolerance"
-F 16 "CAP CER 0.1UF 16V X5R 0402" H 825 4525 60  0001 C CNN "Type"
-F 17 "10V" H 925 4625 60  0001 C CNN "Voltage"
-F 18 "N/A" H 1025 4725 60  0001 C CNN "Wattage"
-F 19 "0.10uF" H 6575 5150 60  0000 C CNN "Component-Value"
-F 20 "0.10µF ±5% 16V Ceramic Capacitor X5R 0402 (1005 Metric)" H 1225 4925 60  0001 C CNN "Description"
-	1    6400 5025
+P 6400 5325
+F 0 "C?" H 6200 5450 60  0000 C CNN
+F 1 "CL05A104JO5NNNC" H 6375 5612 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H -25 3425 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H -25 3425 60  0001 C CNN
+F 4 "0.00326 @ 10000" H -375 3625 60  0001 C CNN "Cost"
+F 5 "13 Jan 2017" H -275 3725 60  0001 C CNN "Date Created"
+F 6 "13 Jan 2017" H -175 3825 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H -75 3925 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 25  4025 60  0001 C CNN "Height"
+F 9 "Yes" H 125 4125 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 225 4225 60  0001 C CNN "MFR"
+F 11 "CL05A104JO5NNNC" H 325 4325 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 425 4425 60  0001 C CNN "Mounting"
+F 13 "2" H 525 4525 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 625 4625 60  0001 C CNN "Status"
+F 15 "5%" H 725 4725 60  0001 C CNN "Tolerance"
+F 16 "CAP CER 0.1UF 16V X5R 0402" H 825 4825 60  0001 C CNN "Type"
+F 17 "10V" H 925 4925 60  0001 C CNN "Voltage"
+F 18 "N/A" H 1025 5025 60  0001 C CNN "Wattage"
+F 19 "0.10uF" H 6575 5450 60  0000 C CNN "Component-Value"
+F 20 "0.10µF ±5% 16V Ceramic Capacitor X5R 0402 (1005 Metric)" H 1225 5225 60  0001 C CNN "Description"
+	1    6400 5325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 5175 6600 5175
+	6150 5475 6600 5475
 Wire Wire Line
-	6600 5175 6775 5175
+	6600 5475 6775 5475
 Wire Wire Line
-	6600 5175 6600 5025
-Connection ~ 6600 5175
+	6600 5475 6600 5325
+Connection ~ 6600 5475
 Wire Wire Line
 	6150 3225 6150 3325
 Wire Wire Line
 	6150 3325 6150 3425
 Connection ~ 6150 3325
 Wire Wire Line
-	6175 3575 7250 3575
+	6150 3575 7225 3575
 Wire Wire Line
-	7250 3575 7250 3825
+	7225 3575 7225 3825
 Wire Wire Line
-	7250 3825 7800 3825
-Wire Wire Line
-	6150 4675 7350 4675
-Wire Wire Line
-	7350 4675 7350 5125
-Wire Wire Line
-	7350 5125 7775 5125
+	7225 3825 7775 3825
 Wire Wire Line
 	4200 2375 3950 2375
 Wire Wire Line
 	3950 4375 4200 4375
 Wire Wire Line
-	3950 5475 4200 5475
-NoConn ~ 4200 5625
+	3950 5775 4200 5775
+NoConn ~ 4200 5925
 Wire Wire Line
-	4200 3675 1775 3675
+	1400 3675 1775 3675
 Wire Wire Line
-	1775 3675 1400 3675
+	1775 3675 4200 3675
 Wire Wire Line
-	4200 3775 2175 3775
+	1400 3775 2175 3775
 Wire Wire Line
-	2175 3775 1400 3775
+	2175 3775 4200 3775
 Wire Wire Line
 	4200 4175 1400 4175
 $Comp
@@ -684,7 +678,9 @@ Wire Wire Line
 	2175 3575 2175 3775
 Connection ~ 2175 3775
 Wire Wire Line
-	1775 2975 2175 2975
+	1775 2975 1975 2975
+Wire Wire Line
+	1975 2975 2175 2975
 $Comp
 L +3.3V #PWR?
 U 1 1 589C7CA7
@@ -700,23 +696,23 @@ Connection ~ 1975 2975
 $Comp
 L GND #PWR?
 U 1 1 589C93A5
-P 8400 3025
-F 0 "#PWR?" H 8450 3075 50  0001 C CNN
-F 1 "GND" H 8405 2852 50  0000 C CNN
-F 2 "" H -1775 -200 50  0001 C CNN
-F 3 "" H -1775 -200 50  0001 C CNN
-	1    8400 3025
+P 8400 2875
+F 0 "#PWR?" H 8450 2925 50  0001 C CNN
+F 1 "GND" H 8405 2702 50  0000 C CNN
+F 2 "" H -1775 -350 50  0001 C CNN
+F 3 "" H -1775 -350 50  0001 C CNN
+	1    8400 2875
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 589C9689
-P 8400 3825
-F 0 "#PWR?" H 8450 3875 50  0001 C CNN
-F 1 "GND" H 8405 3652 50  0000 C CNN
-F 2 "" H -1775 600 50  0001 C CNN
-F 3 "" H -1775 600 50  0001 C CNN
-	1    8400 3825
+P 8375 3825
+F 0 "#PWR?" H 8425 3875 50  0001 C CNN
+F 1 "GND" H 8380 3652 50  0000 C CNN
+F 2 "" H -1800 600 50  0001 C CNN
+F 3 "" H -1800 600 50  0001 C CNN
+	1    8375 3825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -733,12 +729,35 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 589C9AC7
-P 8375 5775
-F 0 "#PWR?" H 8425 5825 50  0001 C CNN
-F 1 "GND" H 8380 5602 50  0000 C CNN
-F 2 "" H -1800 2550 50  0001 C CNN
-F 3 "" H -1800 2550 50  0001 C CNN
-	1    8375 5775
+P 8375 6075
+F 0 "#PWR?" H 8425 6125 50  0001 C CNN
+F 1 "GND" H 8380 5902 50  0000 C CNN
+F 2 "" H -1800 2850 50  0001 C CNN
+F 3 "" H -1800 2850 50  0001 C CNN
+	1    8375 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 6075 7225 6075
+Wire Wire Line
+	7225 6075 7225 5625
+Wire Wire Line
+	7225 5625 6150 5625
+Wire Wire Line
+	6150 4675 7225 4675
+Wire Wire Line
+	7225 4675 7225 5125
+Wire Wire Line
+	7225 5125 7775 5125
+$Comp
+L GND #PWR?
+U 1 1 589D76CF
+P 3350 5775
+F 0 "#PWR?" H 3400 5825 50  0001 C CNN
+F 1 "GND" H 3355 5602 50  0000 C CNN
+F 2 "" H -2525 -300 50  0001 C CNN
+F 3 "" H -2525 -300 50  0001 C CNN
+	1    3350 5775
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
